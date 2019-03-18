@@ -1,0 +1,40 @@
+.blog-post-container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.test-color-1 {
+  color: #FD8024;
+}
+
+.test-color-2 {
+  color: #C0DDDC;
+}
+
+.test-color-3 {
+  color: #3E8290;
+}
+
+.test-color-3 h2 {
+  color: #7ECDCC;
+}
+
+/*
+#C0DDDC
+#3E8290
+#FD8024
+#7ECDCC
+#FFFFFF
+*/
+
+/*
+#1C4269
+#F96F4D
+#FFFFFF
+#FBB736
+#DBE8EF
+#329E9A
+#FFFFFF
+*/

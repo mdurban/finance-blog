@@ -1,6 +1,7 @@
 import React from 'react';
 // import Layout from '../components/layout';
 import { graphql } from 'gatsby'
+import './blog-post.css'
 
 function BlogPostTemplate({data}) {
 
@@ -10,10 +11,10 @@ function BlogPostTemplate({data}) {
   return (
     <div className="blog-post-container">
       <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+        <h1 className='test-color-1'>{frontmatter.title}</h1>
+        <h2 className='test-color-2'>{frontmatter.date}</h2>
         <div
-          className="blog-post-content"
+          className='test-color-3'
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
@@ -43,15 +44,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-// const query = graphql`
-//  query PostQuery($slug: String!) {
-//     markdownRemark(fields: { slug: { eq: $slug } }) {
-//       html
-//       frontmatter {
-//       title
-//       description
-//       }
-//     }
-//   }
-// `
