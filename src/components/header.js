@@ -7,11 +7,11 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className='main-header'>
       <div className='navbar'>
-        <div className='navbar-title'>Money Made Easy</div>
+        <div className='navbar-title'><Link className='hide-linkiness' to='/'>Money Made Easy</Link></div>
         <div className='navbar-nav-elements'>
-          <div className='navbar-element'><a className='navbar-link'>Home</a></div>
-          <div className='navbar-element'><a className='navbar-link'>Blog</a></div>
-          <div className='navbar-element'><a className='navbar-link'>Contact</a></div>
+          <div className='navbar-element'><Link className='navbar-link' to='/'>Home</Link></div>
+          <div className='navbar-element'><Link className='navbar-link'>Blog</Link></div>
+          <div className='navbar-element'><Link className='navbar-link'>Contact</Link></div>
         </div>
       </div>
     </div>

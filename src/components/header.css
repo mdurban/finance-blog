@@ -14,7 +14,6 @@
   justify-content: center;
   /* border-bottom: 1px solid #151515; */
     /* background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0)); */
-    
 }
 
 .navbar-nav-elements {
@@ -30,6 +29,10 @@
   font-size: 1.2rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.hide-linkiness, .hide-linkiness:visited, .hide-linkiness:active, .hide-linkiness:hover {
+  text-decoration: none;
   color: #151515;
 }
 
