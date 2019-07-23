@@ -1,8 +1,8 @@
 ---
-path: "/firstBlogPost"
-title: "Building an Emergency Fund"
+path: "/secondBlogPost"
+title: "How Compound Interest Works"
 description: This post is related to the gatsbyjs
-date: '2019-03-17'
+date: '2019-03-28'
 ---
 An **emergency fund** is just the money you have set aside that you only use in case of emergency (i.e. home/car repairs, medical emergency, unexpected job loss). You should consider prioritize building your emergency fund up before doing anything else with your money. Paying off student loans faster or contributing more to your retirement accounts are great financial strategies, but I believe that having an emergency fund secured is the number one priority.
 

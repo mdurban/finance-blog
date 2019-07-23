@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import PostLink from "../components/post-link"
+import './home-page.css'
 
 const IndexPage = ({
   data: {
@@ -16,11 +17,10 @@ const IndexPage = ({
   .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   return <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>My Blog</h1>
-    <h2>Blogs</h2>
-    <div>{Posts}</div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`]} />
+    <div className='blog-header'>Blog Posts</div>
+    <div className='blog-posts'>{Posts}</div>
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>
 }
 

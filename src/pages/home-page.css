@@ -1,0 +1,32 @@
+.blog-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #424B54;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+.blog-posts {
+  color: #3E8290;
+  font-family: 'Lato', sans-serif;
+}
+
+.blog-posts a {
+  text-decoration: none;
+  color: #3E8290;
+}
+
+.blog-posts a:link {
+  color: inherit;
+  color: #3E8290;
+
+}
+
+.blog-posts a:visited {
+  color: inherit;
+}
+
+.blog-posts a:hover {
+  cursor: pointer;
+  color: #95c7d1;
+}

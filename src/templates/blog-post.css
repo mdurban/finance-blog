@@ -1,25 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .blog-post-container {
-  width: 75%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto', sans-serif;
 }
 
-.test-color-1 {
-  color: #FD8024;
+/* Roboto, Open Sans and Lato. /*
+
+/*
+  color: #031927; midnight blue
+  color: #424B54; outer space
+  color: #3E8290; teal blue
+  color: #93A8AC; cadet gray
+
+  color #151515; LICORICE
+  color #222222; RAISIN
+  color: #0B4F6C; DARK IMPERIAL BLUE
+  color: #FBFBFF; GHOST WHITE
+  color: #DB2B39; RUSTY RED
+  color: #AAAAAA; DARK MEDIUM GRAY
+*/
+
+.title {
+  color: #424B54;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  margin-bottom: 5px;
 }
 
-.test-color-2 {
-  color: #C0DDDC;
+.date {
+  color: #424B54;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
 }
 
-.test-color-3 {
+hr.divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #151515, rgba(0, 0, 0, 0));
+}
+
+.content {
+  color: #151515;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content h2 {
   color: #3E8290;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
 }
 
-.test-color-3 h2 {
-  color: #7ECDCC;
-}
+/* .content h2 {
+  color: #93A8AC;
+  font-family: 'Roboto', sans-serif;
+} */
 
 /*
 #C0DDDC

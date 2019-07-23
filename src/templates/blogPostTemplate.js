@@ -1,7 +1,7 @@
 import React from 'react';
-// import Layout from '../components/layout';
 import { graphql } from 'gatsby'
 import './blog-post.css'
+import Layout from '../components/layout';
 
 function BlogPostTemplate({data}) {
 
@@ -9,25 +9,20 @@ function BlogPostTemplate({data}) {
   const { frontmatter, html } = markdownRemark
 
   return (
-    <div className="blog-post-container">
-      <div className="blog-post">
-        <h1 className='test-color-1'>{frontmatter.title}</h1>
-        <h2 className='test-color-2'>{frontmatter.date}</h2>
-        <div
-          className='test-color-3'
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+    <Layout>
+      <div className="blog-post-container">
+        <div className="blog-post">
+          <h1 className='title'>{frontmatter.title}</h1>
+          <h2 className='date'>{frontmatter.date}</h2>
+          <hr className='divider' />
+          <div
+            className='content'
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
       </div>
-    </div>
+    </Layout>
   )
-    // return (
-    //     <Layout>
-    //       <div>
-    //           {/* <h1>{title}</h1>
-    //           <div dangerouslySetInnerHTML={{ __html: blogContents.html }} /> */}
-    //       </div>
-    //     </Layout>
-    // )
 }
 
 export default BlogPostTemplate
