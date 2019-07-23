@@ -1,5 +1,5 @@
 ---
-path: "/firstBlogPost"
+path: "/emergencyFund"
 title: "Building an Emergency Fund"
 description: This post is related to the gatsbyjs
 date: '2019-03-17'

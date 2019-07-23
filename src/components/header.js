@@ -9,9 +9,9 @@ const Header = ({ siteTitle }) => (
       <div className='navbar'>
         <div className='navbar-title'>Money Made Easy</div>
         <div className='navbar-nav-elements'>
-          <div className='navbar-element'><a className='navbar-link' href='#about'>Home</a></div>
-          <div className='navbar-element'><a className='navbar-link' href='#menu'>Blog</a></div>
-          <div className='navbar-element'><a className='navbar-link' href='#reviews'>Contact</a></div>
+          <div className='navbar-element'><a className='navbar-link'>Home</a></div>
+          <div className='navbar-element'><a className='navbar-link'>Blog</a></div>
+          <div className='navbar-element'><a className='navbar-link'>Contact</a></div>
         </div>
       </div>
     </div>

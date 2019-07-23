@@ -1,5 +1,5 @@
 ---
-path: "/secondBlogPost"
+path: "/compoundInterest"
 title: "How Compound Interest Works"
 description: This post is related to the gatsbyjs
 date: '2019-03-28'
