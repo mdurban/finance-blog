@@ -20,6 +20,12 @@ function BlogPostTemplate({data}) {
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
+        <div className='disclaimer'>
+          I am not a financial advisor. I know very little about finances, but I want to share what I've learned 
+          because it has made a big difference in my life.
+          I am by no means an financial expert in any capacity and you should always
+          get advice from a fiduciary financial advisor before making any financial decisions.
+        </div>
       </div>
     </Layout>
   )
