@@ -6,6 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import PostLink from "../components/post-link"
 import './home-page.css'
+import pig from '../assets/piggie-opacity.png'
 
 const IndexPage = ({
   data: {
@@ -18,6 +19,14 @@ const IndexPage = ({
 
   return <Layout>
     <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`]} />
+    <div className='banner'>
+      <div className='banner-title'>
+        Making money easy. Brought to you by people who don't know enough
+        about money to make it complicated.
+      </div>
+      <div className='banner-img' />
+      <img className='banner-img' src={pig} alt="Logo" />
+    </div>
     <div className='blog-header'>Blog Posts</div>
     <div className='blog-posts'>{Posts}</div>
     {/* <Link to="/page-2/">Go to page 2</Link> */}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .blog-post-container {
-  width: 65%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Roboto', sans-serif;
@@ -48,6 +48,14 @@ hr.divider {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #151515, rgba(0, 0, 0, 0));
+}
+
+.blog-banner {
+  text-align: center;
+}
+
+.blog-banner-img {
+  opacity: 1;
 }
 
 .content {

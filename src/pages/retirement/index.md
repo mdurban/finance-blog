@@ -4,30 +4,32 @@ title: "What is a 401(k)?"
 description: This post is related to the gatsbyjs
 date: '2019-05-21'
 ---
-An **emergency fund** is just the money you have set aside that you only use in case of emergency (i.e. home/car repairs, medical emergency, unexpected job loss). You should consider prioritize building your emergency fund up before doing anything else with your money. Paying off student loans faster or contributing more to your retirement accounts are great financial strategies, but I believe that having an emergency fund secured is the number one priority.
+A **401(k)** is an American retirement account that is offered by many traditional employers. These accounts, along with IRA accounts, are used by many as the backbone of their retirement savings plans. These accounts generally have good long-term growth because they are invested in stocks and/or bonds. Investing sounds scary and a lot of people try to stay away from the term,  but if you're contributing to your retirement account, you are most likely investing without even knowing it!
 
-## How Much to Keep Aside for Emergencies
+## How to Save for Retirement
 
-To start, aim to save at least a couple thousand dollars for emergencies. After that, try building up to a few months worth of expenses. Most people recommend that you should keep 3 - 6 months of cash in an accessible place (most likely a savings account with your bank).
+You may need to reach out to your employer to learn how to contribute to your 401(k) account. Usually, you can select a percentage of however much you want to be taken out of eaach paycheck to go into your retirement account.
 
-Determining exactly how much 3 - 6 months worth of cash changes on the person and will require you do to some homework. You need to sit down and figure out how much you spend on the bare necessities each month. Don't count your monthly Spotify or Netflix fees as these subscriptions can be canceled in case of an emergency, but don't forget things like internet that will be necessary if searching for a new job.
+After selecting how much you want to contribute, you will need to decide how you want this money invested. For this, I would recommend reaching out to a fiduciary financial advisor.
 
-This amount was higher than I expected when initially going through this process, but it will be a nice peace of mind to know that you have it set aside.
+Some accounts will have a default investing strategy, such as investing in a [target date fund](https://www.investor.gov/introduction-investing/basics/investment-products/target-date-funds). This will give you a diversified investment strategy based on the year that you are projected to retire and can offer a nice hands-off approach for many people (like myself) who don't want to get into the nitty gritty of investing.
 
-## Where to Keep Your Emergency Fund
+## How Much to Contribute
 
-Make sure that you're keeping your emergency fund in an *easily accessible* spot, such as a savings account. You need to have immediate access to your money. This is called [liquid](https://www.investopedia.com/terms/l/liquidity.asp) funds. This money can be taken out at any time and be used for spending immdiately.
+My personal rule of thumb is to start by aiming to contribute the least amount that your company will match. For example, your employer may match up to 4% of your paycheck. In this case, I would contribute (at least) 4% of my paycheck to my 401(k) account. Contributing anything less is essentially leaving free money on the table. I like free money, so I max out the money I can get from my employer's match.
 
-I use my bank's savings account for my emergency funds. I keep 6 months of cash in there at all times in case of an emergency, and hopefully I'll never need to touch it. The interest that my savings account provides just adds extra padding to my emergency account.
+Contributing anything more than what your company matches is great. Once you understand compound interest, you'll understand how important contributing to your retirment account is. You will be shocked at how much your retirment savings will grow when doing simple calculations on a retirment calculator. And because of this growth, although it's never too late to start contributing, the earlier the better. Using the [rule of 72](https://www.thebalance.com/what-is-the-rule-of-72-how-can-it-help-you-double-your-money-453756), you can see how quickly your savings can grow (and how many times it can double!).
 
-## Choosing a Bank for Your Emergency Fund
+I personally prioritize contributing to my retirement accounts fairly high. I would always try to get my company match. After that, I like to start contributing even more to my retirement accounts after finishing up building an emergency fund and paying off any high-interest rate loans.
 
-Most people keep their money with big banks (such as Chase). For long-term savings accounts, such as your emergency account, I would look towards high-interest, online banks. The bigger banks usually don't offer nearly as much growth on your savings. For example, before switching banks, I was using Chase who offers 0.01% interest. This isn't even enough to keep up with inflation, so I was actually losing money.
+## Traditional? ROTH?
 
-I personally use [Ally](https://www.ally.com/), but there are many options out there. Looks for any bank that offers at least 2% APY and make sure that the bank is FDIC-insured. This means that, in the case that the bank collapses, the federal government pays you back your money (up to $250,000).
+You may have heard the terms **Traditional** or **ROTH** regarding retirment accounts, and your employer may even offer both for your 401(k) accounts. When choosing which one, I recommend consulting a financial advisor. Some employers may even offer an advisor when trying to figure out retirment contributions.
 
-Other things to keep in mind with online banks are to look at monthly fees. Most banks don't have these or will waive them if you opt into their paperless options for quarterly statements, but some have these fees that may not me initially obvious. Also be sure to check if the savings account has a minimum account balance that you'll need to meet.
+The difference between Traditional and ROTH accounts are just when the money that you contribute is being taxed:
+-  In a Traditional account, your contributions go in tax free, but you are taxed when you take the money out in retirement.
+- In a ROTH account, your contributions go in after paying taxes, but they are taken out tax-free in retirement.
 
-## Maintaining Emergency Funds Balance
+## Accessing your Retirement Funds
 
-After you've saved the amount you're comfortable with for your emergency funds, congratulations! You're all done. Don't touch the funds and just let it sit there gaining (hopefully more than 2%) interest.
+Final note on retirement accounts. I strongly suggest that you do not take any money out of your accounts prior to retirement, except in dire emergencies (this is why you worked so hard on building up your emergency funds!). If you have to access your retirement funds early, the IRS hit you with a pretty large fee. This also will leave you with less in your retirement account to earn that huge growth potential.

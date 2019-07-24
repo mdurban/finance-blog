@@ -6,6 +6,26 @@
   font-family: 'Lato', sans-serif;
 }
 
+.banner {
+  position: relative;
+  color: 151515;
+  font-size: 34px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  line-height: 1.1;
+}
+
+
+
 .blog-posts {
   color: #3E8290;
   font-family: 'Lato', sans-serif;

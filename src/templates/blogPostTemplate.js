@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby'
 import './blog-post.css'
 import Layout from '../components/layout';
+import jar from '../assets/jar-sm.jpg'
 
 function BlogPostTemplate({data}) {
 
@@ -15,6 +16,7 @@ function BlogPostTemplate({data}) {
           <h1 className='title'>{frontmatter.title}</h1>
           <h2 className='date'>{frontmatter.date}</h2>
           <hr className='divider' />
+          <div className='blog-banner'><img className='blog-banner-img' src={jar} alt="Logo" /></div>
           <div
             className='content'
             dangerouslySetInnerHTML={{ __html: html }}
@@ -23,7 +25,7 @@ function BlogPostTemplate({data}) {
         <div className='disclaimer'>
           I am not a financial advisor. I know very little about finances, but I want to share what I've learned 
           because it has made a big difference in my life.
-          I am by no means an financial expert in any capacity and you should always
+          I am by no means a financial expert in any capacity and you should 
           get advice from a fiduciary financial advisor before making any financial decisions.
         </div>
       </div>

@@ -4,21 +4,19 @@ title: "How Compound Interest Works"
 description: This post is related to the gatsbyjs
 date: '2019-03-28'
 ---
-An **emergency fund** is just the money you have set aside that you only use in case of emergency (i.e. home/car repairs, medical emergency, unexpected job loss). You should consider prioritize building your emergency fund up before doing anything else with your money. Paying off student loans faster or contributing more to your retirement accounts are great financial strategies, but I believe that having an emergency fund secured is the number one priority.
+**Compound interest** is the tenth wonder of the world. When looking at the numbers, it can seem like magic.
 
-## How Much to Keep Aside for Emergencies
+## The Rule of 72
 
-To start, aim to save at least a couple thousand dollars for emergencies. After that, try building up to a few months worth of expenses. Most people recommend that you should keep 3 - 6 months of cash in an accessible place (most likely a savings account with your bank).
+Using the [rule of 72](https://www.thebalance.com/what-is-the-rule-of-72-how-can-it-help-you-double-your-money-453756), you can see how quickly your savings can grow (and how many times it can double!).
 
-Determining exactly how much 3 - 6 months worth of cash changes on the person and will require you do to some homework. You need to sit down and figure out how much you spend on the bare necessities each month. Don't count your monthly Spotify or Netflix fees as these subscriptions can be canceled in case of an emergency, but don't forget things like internet that will be necessary if searching for a new job.
+For example, if your money is invested at a 7% percent return (which most retirement plans can hit with a hands-off approach), your money will double in just over 10 years.
 
-This amount was higher than I expected when initially going through this process, but it will be a nice peace of mind to know that you have it set aside.
+An example to help illustrate this. If you contribute $100,000 to your retirement by the age of 40
 
-## Where to Keep Your Emergency Fund
+## Market Volatility
 
-Make sure that you're keeping your emergency fund in an *easily accessible* spot, such as a savings account. You need to have immediate access to your money. This is called [liquid](https://www.investopedia.com/terms/l/liquidity.asp) funds. This money can be taken out at any time and be used for spending immdiately.
-
-I use my bank's savings account for my emergency funds. I keep 6 months of cash in there at all times in case of an emergency, and hopefully I'll never need to touch it. The interest that my savings account provides just adds extra padding to my emergency account.
+Keep in mind that these numbers show the *average*. The stock market fluctuates quite a bit, and there will be down years to go along with your up years. This is why I like my investment strategies to be as hands-off as possible. I don't want to deal with the stress.
 
 ## Choosing a Bank for Your Emergency Fund
 
