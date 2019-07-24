@@ -29,7 +29,7 @@ const IndexPage = ({
         Image by Pictures of Money
       </a>
     </div>
-    <div className='blog-header'>Blog Posts</div>
+    <div id='blogs' className='blog-header'>Blog Posts</div>
     <div className='blog-posts'>{Posts}</div>
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>

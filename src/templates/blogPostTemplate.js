@@ -15,7 +15,6 @@ function BlogPostTemplate({data}) {
         <div className="blog-post">
           <h1 className='title'>{frontmatter.title}</h1>
           <h2 className='date'>{frontmatter.date}</h2>
-          <hr className='divider' />
           <div className='blog-banner'><img className='blog-banner-img' src={jar} alt="Logo" /></div>
           <div
             className='content'
