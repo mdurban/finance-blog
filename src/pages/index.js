@@ -24,7 +24,6 @@ const IndexPage = ({
         Making money easy. Brought to you by people who don't know enough
         about money to make it complicated.
       </div>
-      <div className='banner-img' />
       <img className='banner-img' src={pig} alt="Logo" />
     </div>
     <div className='blog-header'>Blog Posts</div>
