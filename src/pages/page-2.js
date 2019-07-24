@@ -10,7 +10,7 @@ const SecondPage = () => (
     <h1>Disclaimer</h1>
     <p>
       We are not financial advisors or even financial experts. We are financial noobs.
-      We recommend you always talk with a financial professional taking any actions.
+      We recommend you always talk with a financial professional before taking any actions.
     </p>
     <p>
       Nothing on this site should be seen as financial advice. All opinions are our own 
