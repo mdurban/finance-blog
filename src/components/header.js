@@ -11,6 +11,7 @@ const Header = ({ siteTitle }) => (
         <div className='navbar-nav-elements'>
           <div className='navbar-element'><Link className='navbar-link' to='/'>Home</Link></div>
           <div className='navbar-element'><Link className='navbar-link' to='#blogs'>Blog</Link></div>
+          <div className='navbar-element'><Link className='navbar-link' to='/about/'>About</Link></div>
           <div className='navbar-element'><Link className='navbar-link'>Contact</Link></div>
         </div>
       </div>
