@@ -31,7 +31,7 @@ const IndexPage = ({
     </div>
     <div id='blogs' className='blog-header'>Blog Posts</div>
     <div className='blog-posts'>{Posts}</div>
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
+    <div className='footer'><Link className='disclaimer' to="/page-2/">Disclaimer</Link></div>
   </Layout>
 }
 
