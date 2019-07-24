@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className='main-header'>
       <div className='navbar'>
-        <div className='navbar-title'><Link className='hide-linkiness' to='/'>Money Made Easy</Link></div>
+        <div className='navbar-title'><Link className='hide-linkiness' to='/'>moneyfor<span className='partial-title'>noobs</span></Link></div>
         <div className='navbar-nav-elements'>
           <div className='navbar-element'><Link className='navbar-link' to='/'>Home</Link></div>
           <div className='navbar-element'><Link className='navbar-link'>Blog</Link></div>
@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
         </div>
       </div>
     </div>
+    <hr className='divider' />
   </header>
 )
 

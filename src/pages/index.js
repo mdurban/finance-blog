@@ -25,9 +25,9 @@ const IndexPage = ({
         about money to make it complicated.
       </div>
       <img className='banner-img' src={pig} alt="Logo" />
-        <a className='img-credit' href='https://www.flickr.com/photos/pictures-of-money/17299241862/'>
-          Image by Pictures of Money
-        </a>
+      <a className='img-credit' href='https://www.flickr.com/photos/pictures-of-money/17299241862/'>
+        Image by Pictures of Money
+      </a>
     </div>
     <div className='blog-header'>Blog Posts</div>
     <div className='blog-posts'>{Posts}</div>
