@@ -15,7 +15,12 @@ function BlogPostTemplate({data}) {
         <div className="blog-post">
           <h1 className='title'>{frontmatter.title}</h1>
           <h2 className='date'>{frontmatter.date}</h2>
-          <div className='blog-banner'><img className='blog-banner-img' src={jar} alt="Logo" /></div>
+          <div className='blog-banner'>
+            <img className='blog-banner-img' src={jar} alt="Logo" />
+            <a className='blog-img-credit' href='https://www.flickr.com/photos/pictures-of-money/17121706878/'>
+              Image by Pictures of Money
+            </a>
+          </div>
           <div
             className='content'
             dangerouslySetInnerHTML={{ __html: html }}

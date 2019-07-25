@@ -45,11 +45,22 @@
 }
 
 .blog-banner {
+  position: relative;
   text-align: center;
 }
 
 .blog-banner-img {
   opacity: 1;
+}
+
+.blog-img-credit {
+  position: absolute;
+  top: 88%;
+  right: 10%;
+  font-size: 8px;
+  color: #AAAAAA;
+  text-decoration: none;
+  font-style: italic;
 }
 
 .content {

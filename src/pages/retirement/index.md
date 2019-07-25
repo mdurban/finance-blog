@@ -24,7 +24,7 @@ I use my bank's savings account for my emergency funds. I keep 6 months of cash 
 
 Most people keep their money with big, brick-and-mortar banks, but there are many online-only banking options available. For long-term savings accounts, such as emergency accounts, I decided to look towards high-interest, online banks. The bigger banks usually don't offer nearly as much growth on savings. For example, before switching banks, I was using Chase who offers 0.01% interest. This wasn't even enough to keep up with inflation, so I was actually losing money.
 
-I was looking for any bank that offers at least 2% APY. This should be pretty standard for most high-interest savings account with online banks.
+I was looking for any bank that offers at least 2% APY. This should be pretty standard for most high-interest savings account with online banks. Examples include [Ally](https://www.ally.com/), [Discover](https://www.discover.com/online-banking/savings-account/) and [Marcus by Goldman Sachs](https://www.marcus.com/us/en)
 
 Most importantly, I made sure that my new bank was FDIC-insured. This means that, in the case that the bank collapses, the federal government pays will cover my money (up to $250,000).
 
