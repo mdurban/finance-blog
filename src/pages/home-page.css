@@ -72,3 +72,12 @@
   cursor: pointer;
   color: #95c7d1;
 }
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer-link, .footer-link:hover, .footer-link:active, .footer-link:visited {
+  text-decoration: none;
+  color: #93A8AC;
+}
