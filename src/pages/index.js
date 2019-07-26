@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import PostLink from "../components/post-link"
 import './home-page.css'
 import pig from '../assets/piggie-opacity.png'
+import jar from '../assets/jar-tiny.jpg'
 
 const IndexPage = ({
   data: {
@@ -16,6 +17,13 @@ const IndexPage = ({
   const Posts = edges
   .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
   .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+
+  edges.forEach(edge => console.log('thing: ', edge.node.frontmatter.title))
+  edges.forEach(edge => console.log('thing: ', edge.node.frontmatter.date))
+  edges.forEach(edge => console.log('thing: ', edge.node.excerpt))
+// edges.forEach(edge => 
+//   console.log(`title: ${edge.node.title} date: ${edge.node.date} excerpt: ${edge.node.excerpt}`
+// ))
 
   return <Layout>
     <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`]} />
@@ -29,10 +37,25 @@ const IndexPage = ({
         Image by Pictures of Money
       </a>
     </div>
-    <div id='blogs' className='blog-header'>Blog Posts</div>
-    <div className='blog-posts'>{Posts}</div>
+    <div id='blogs' className='blog-header'>Articles</div>
+    <div className='blog-posts-container'>
+      {
+        edges.map((edge, key) => blogPreview(edge, key))
+      }
+    </div>
     <div className='footer'><Link className='footer-link' to="/page-2/">Disclaimer</Link></div>
   </Layout>
+}
+
+const blogPreview = (edge, key) => {
+  return <Link className='blog-link' to={edge.node.frontmatter.path} key={key}>
+    <div className='blog-preview-container'>
+      <div className='blog-banner-img-container'><img className='blog-banner-img' src={jar} alt="Logo" /></div>
+      <div className='blog-title'>{edge.node.frontmatter.title}</div>
+      <div className='blog-date'>{edge.node.frontmatter.date}</div>
+      <div className='blog-excerpt'>{edge.node.excerpt}</div>
+    </div>
+  </Link>
 }
 
 export default IndexPage
@@ -43,7 +66,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 200)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path
