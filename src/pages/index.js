@@ -14,17 +14,6 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
-  const Posts = edges
-  .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-  .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-
-  edges.forEach(edge => console.log('thing: ', edge.node.frontmatter.title))
-  edges.forEach(edge => console.log('thing: ', edge.node.frontmatter.date))
-  edges.forEach(edge => console.log('thing: ', edge.node.excerpt))
-// edges.forEach(edge => 
-//   console.log(`title: ${edge.node.title} date: ${edge.node.date} excerpt: ${edge.node.excerpt}`
-// ))
-
   return <Layout>
     <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`]} />
     <div className='banner'>
