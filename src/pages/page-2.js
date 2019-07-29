@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Disclaimer</h1>
+    <h2>Disclaimer</h2>
     <p>
       We are not financial advisors or even financial experts. We are financial noobs.
       We recommend you always talk with a financial professional before taking any actions.
@@ -16,13 +16,17 @@ const SecondPage = () => (
       Nothing on this site should be seen as financial advice. All opinions are our own 
       and do not apply to anyone. Everyone's financial situations are different and therefore 
       require individualized financial strategies. Again, we recommend meeting with a 
-      financial advisor for personalized advice.
+      financial advisor for personalized advice. You are responsible for any financial decisions that you choose to make.
     </p>
+    <h2>Affiliate Program Participation</h2>
     <p>
-      Any links found on this site to other products or articles are not 
-      associated with us in any way and we are not endorsing them. We have added them because we found them 
-      informative. We are not responsible for any changes that may occur on those sites.
+      Some links in this website may be affiliate links.
+      This means whenever you click on one of these links,
+      I get paid some money and you won't notice anything.
+      Any references to third party products are subject to change without notice.
+      You are responsible for doing your own research before participating in any third party offers.
     </p>
+
   </Layout>
 )
 
