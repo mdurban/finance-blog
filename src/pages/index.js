@@ -15,7 +15,7 @@ const IndexPage = ({
   },
 }) => {
   return <Layout>
-    <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`]} />
+    <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`, `money for noobs`]} />
     <div className='banner'>
       <div className='banner-title'>
         Making money easy. Brought to you by people who don't know enough
@@ -37,9 +37,10 @@ const IndexPage = ({
 }
 
 const blogPreview = (edge, key) => {
+  const image = require(`../assets/${edge.node.frontmatter.image}-tiny.jpg`)
   return <Link className='blog-link' to={edge.node.frontmatter.path} key={key}>
     <div className='blog-preview-container'>
-      <div className='blog-banner-img-container'><img className='blog-banner-img' src={jar} alt="Logo" /></div>
+      <div className='blog-banner-img-container'><img className='blog-banner-img' src={image} alt="Logo" /></div>
       <div className='blog-title'>{edge.node.frontmatter.title}</div>
       <div className='blog-date'>{edge.node.frontmatter.date}</div>
       <div className='blog-excerpt'>{edge.node.excerpt}</div>
@@ -60,6 +61,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
+            image
           }
         }
       }

@@ -8,6 +8,8 @@ function BlogPostTemplate({data}) {
 
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
+  const imgPath = frontmatter.image
+  const image = require(`../assets/${imgPath}-sm.jpg`)
 
   return (
     <Layout>
@@ -16,9 +18,9 @@ function BlogPostTemplate({data}) {
           <h1 className='title'>{frontmatter.title}</h1>
           <h2 className='date'>{frontmatter.date}</h2>
           <div className='blog-banner'>
-            <img className='blog-banner-img' src={jar} alt="Logo" />
-            <a className='blog-img-credit' href='https://www.flickr.com/photos/pictures-of-money/17121706878/'>
-              Image by Pictures of Money
+            <img className='blog-banner-img' src={image} alt="Logo" />
+            <a className='blog-img-credit' href={frontmatter.imageCredit}>
+              Image by <span>{frontmatter.imageAuthor}</span>
             </a>
           </div>
           <div
@@ -47,6 +49,9 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        image
+        imageCredit
+        imageAuthor
       }
     }
   }
