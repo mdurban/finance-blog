@@ -76,6 +76,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #AAAAAA;
+  max-height: 340px;
 }
 
 .blog-preview-container:hover {

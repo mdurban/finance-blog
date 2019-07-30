@@ -56,7 +56,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 200)
+          excerpt(pruneLength: 220)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path
