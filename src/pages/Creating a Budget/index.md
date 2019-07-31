@@ -2,7 +2,7 @@
 path: "/budget"
 title: "Creating a Budget"
 description: This post is related to the gatsbyjs
-date: '2019-12-07'
+date: '2019-07-28'
 image: 'budget'
 imageCredit: 'https://www.flickr.com/photos/22887612@N08/2199605103/'
 imageAuthor: 'weddingssc1'
@@ -15,7 +15,11 @@ Take a look at your paystubs to determine how much money your family is bringing
 ## How Much You're Spending on Essentials
 This is the same exercise you did when determining [how much you need for your emergency fund](https://moneyfornoobs.com/emergencyFund). Don't forget to include all essentials you need, including bills that are not monthly (such as home/auto insurance). I like to split up these costs per month to make the math easier.
 
-A good target to aim for that many people recommend is the [50 - 30 - 20 Budget](https://www.nerdwallet.com/blog/finance/nerdwallet-budget-calculator/). This means you spend roughly 50% on necessities (groceries, food), 30% on whatever you want (entertainment, hobbies) and 20% in your savings and paying off extra on debt. 
+Make sure you're looking at *all* of your expenses. Sometimes we have so many automated bills and loans that it's difficult to remember where all our money is going to. Go through your credit card statements and bills to ensure that you have everything accounted for.
+
+## Categorizing Your Budget
+
+When trying to figure out how much to spend in each category, a good target to aim for that many people recommend is the [50 - 30 - 20 Budget](https://www.nerdwallet.com/blog/finance/nerdwallet-budget-calculator/). This means you spend roughly 50% on necessities (groceries, food), 30% on whatever you want (entertainment, hobbies) and 20% in your savings and paying off extra on debt. 
 
 To me, this budgeting strategy seems unrealistic for a lot of people. For many, paying for necessities will cost much more than 50% of a month's worth of pay. If this is the case, there are a few strategies that you can do to save more of your money, such as shopping around for lower insurance quotes. Saving 20% of income each month may be near impossible for some. It's important to adjust this based on your current financial situation as there's no one-size-fits all budgeting solution that works for everyone.
 
@@ -28,12 +32,12 @@ An important step in starting a budget is to track *all* of your spending. You'l
 
 I like to use a tool for tracking my budget. This makes it so that you don't need to manually track everything in a spreadsheet. Some of the most popular budgeting apps are [Personal Capital](https://www.personalcapital.com/), [Mint](https://www.mint.com/), [Every Dollar](https://www.everydollar.com/) and [You Need A Budget](https://www.youneedabudget.com/).
 
-I personally use Personal Capital. It is free to use and offers a ton of features outside of just budget tracking. It creates a central place to keep track of all your bank accounts, retirement accounts, loans, investing portfolio and more. It also has a pretty nice retirement planner built in. If you would like to try it out, use [this referral link](https://share.personalcapital.com/x/ELU5Zy) and we both get a $20 Amazon gift card!
+I personally use Personal Capital. It is free to use and offers a ton of features outside of just budget tracking. It creates a central place to keep track of all your bank accounts, retirement accounts, loans, investing portfolio and more. Once you link all of your accounts, you'll be able to easily see exactly where all of your money is going. It also has a pretty nice retirement planner built in. If you would like to try it out, use [this referral link](https://share.personalcapital.com/x/ELU5Zy) and we both get a $20 Amazon gift card!
 
 ## Wrapping Up
 I want to offer a warning when putting your budget together: **Do not compare yourself to others**. It's called personal finance because it's *personal*. Everyone is in a different financial situation with different goals and priorities.
 
-The most important thing when creating a budget is to know where your money is going. After you've figured this out, set up a plan that works with your personal financial situation and goals and stick to it.
+The most important thing when creating a budget is to know where all of your money is going. After you've figured this out, set up a plan that works with your personal financial situation and goals and stick to it.
 
 
 

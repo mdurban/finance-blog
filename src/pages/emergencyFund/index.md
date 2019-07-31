@@ -2,7 +2,7 @@
 path: "/emergencyFund"
 title: "Building an Emergency Fund"
 description: This post is related to the gatsbyjs
-date: '2019-03-17'
+date: '2019-07-10'
 image: 'jar'
 imageCredit: 'https://www.flickr.com/photos/pictures-of-money/17121706878/'
 imageAuthor: 'Pictures of Money'
