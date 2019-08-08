@@ -32,7 +32,7 @@ const IndexPage = ({
         edges.map((edge, key) => blogPreview(edge, key))
       }
     </div>
-    <div className='footer'><Link className='footer-link' to="/page-2/">Disclaimer</Link></div>
+    <div className='footer'><Link className='footer-link' to="/disclaimer/">Disclaimer and Privacy Policy</Link></div>
   </Layout>
 }
 

@@ -29,6 +29,7 @@ const About = () => (
         the Money Noob, have done that research so other noobs don't have to.
     </p>
     <p> - The Money Noob</p>
+    <div className='footer'><Link className='footer-link' to="/disclaimer/">Disclaimer and Privacy Policy</Link></div>
   </Layout>
 )
 
