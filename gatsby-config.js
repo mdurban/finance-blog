@@ -3,6 +3,7 @@ module.exports = {
     title: `Money For Noobs`,
     description: `Finance for noobs, by noobs`,
     author: `themoneynoob@moneyfornoobs.com`,
+    siteUrl: 'https://www.moneyfornoobs.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -53,6 +54,9 @@ module.exports = {
           families: ['Droid Sans', 'Droid Serif', 'Roboto Serif', 'Lato Serif']
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
     }
   ],
 }
