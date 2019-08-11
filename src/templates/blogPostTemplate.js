@@ -1,8 +1,8 @@
+import { graphql } from 'gatsby';
 import React from 'react';
-import { graphql } from 'gatsby'
-import './blog-post.css'
 import Layout from '../components/layout';
-import jar from '../assets/jar-sm.jpg'
+import SEO from '../components/seo';
+import './blog-post.css';
 
 function BlogPostTemplate({data}) {
 
@@ -13,6 +13,7 @@ function BlogPostTemplate({data}) {
 
   return (
     <Layout>
+      <SEO title="Articles" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`, `money for noobs`, 'article', 'blog', 'budget', 'retirement']} />
       <div className="blog-post-container">
         <div className="blog-post">
           <h1 className='title'>{frontmatter.title}</h1>

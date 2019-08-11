@@ -1,13 +1,10 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql, Link } from "gatsby";
+import React from "react";
+import pig from '../assets/piggie-opacity.png';
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import './home-page.css';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-import PostLink from "../components/post-link"
-import './home-page.css'
-import pig from '../assets/piggie-opacity.png'
-import jar from '../assets/jar-tiny.jpg'
 
 const IndexPage = ({
   data: {
@@ -15,7 +12,7 @@ const IndexPage = ({
   },
 }) => {
   return <Layout>
-    <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`, `money for noobs`]} />
+    <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`, `money for noobs`, 'article', 'blog', 'budget', 'retirement']} />
     <div className='banner'>
       <div className='banner-title'>
         Making money easy. Brought to you by people who don't know enough
