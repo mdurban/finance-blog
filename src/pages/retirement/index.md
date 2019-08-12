@@ -1,6 +1,6 @@
 ---
 path: "/retirement"
-title: "Learn To 401(k)"
+title: "401(k) Basics"
 description: This post is related to the gatsbyjs
 date: '2019-08-07'
 image: 'flying-money'
@@ -14,7 +14,7 @@ When contributing to your workplace's 401(k) retirement account, you will need t
 
 After selecting how much you want to contribute, you will need to decide where you want this money to go. Figuring out how you want your retirement money invested can be daunting to many. For this, I would recommend reaching out to a financial advisor.
 
-The way I approach investing my 401(k) funds is by picking a simple, long-term, hands-off allocation strategy. Some 401(k) plans offer a [target date fund](https://www.investor.gov/introduction-investing/basics/investment-products/target-date-funds). These funds provide a diversified investment strategy based on your projected retirement year and can offer a nice approach for many people (like myself) who don't want to get into the nitty gritty of investing and keeping up with changing their allocations.
+The way I approach investing my 401(k) funds is by picking a simple, long-term, hands-off allocation strategy. Some 401(k) plans offer a [target date fund](https://www.investor.gov/introduction-investing/basics/investment-products/target-date-funds). These funds provide a diversified investment strategy based on your projected retirement year and can offer a nice approach for many people (like myself) who don't want to get into the nitty gritty of investing and keeping up with changing their allocations. While these may not be the best investment strategy for you, they provide a simple way to invest your retirement funds without researching all of your investment options.
 
 Some accounts will have a default investing strategy and some won't be invested at all (which is a problem if you expect any kind of growth). Make sure that you know exactly how your contributions are being invested.
 
