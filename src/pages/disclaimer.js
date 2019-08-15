@@ -32,14 +32,6 @@ const Disclaimer = () => (
     <p>
       You can opt out of this tracking using <a href='https://tools.google.com/dlpage/gaoptout?hl=en'>this browser plugin</a>
     </p>
-    <h2>Affiliate Program Participation</h2>
-    <p>
-      Some links in this website may be affiliate links.
-      This means whenever you click on one of these links,
-      I get paid some money and you won't notice anything.
-      Any references to third party products are subject to change without notice.
-      You are responsible for doing your own research before participating in any third party offers.
-    </p>
 
   </Layout>
 )
