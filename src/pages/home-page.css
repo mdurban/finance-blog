@@ -76,6 +76,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #AAAAAA;
+  height: 100%;
   max-height: 340px;
 }
 
