@@ -10,10 +10,16 @@ const About = () => (
   <Layout>
     <SEO title="about" />
     <h1>Contact</h1>
-    <input className='email-form email-subject' type='text' placeholder='SUBJECT'></input>
-    {/* <input className='email-form email-message' type='text' placeholder='MESSAGE'></input> */}
-    <textarea className='email-form email-message' placeholder='MESSAGE' rows='8' cols='50'></textarea>
-    <button className='email-submit' type="button" onClick={() => {}}>Submit</button>
+    <form id='contact-form'>
+      <input className='email-form email-subject' type='text' placeholder='SUBJECT'></input>
+      <textarea className='email-form email-message' placeholder='MESSAGE' rows='8' cols='50'></textarea>
+      <button className='email-submit' type="button" onClick={() => {
+        alert('Thank you for contacting The Money Noob!')
+        document.getElementById('contact-form').reset();
+      }}>
+        Submit
+      </button>
+    </form>
   </Layout>
 )
 
