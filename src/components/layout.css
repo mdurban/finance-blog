@@ -621,3 +621,31 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.footer {
+  margin-top: 20px;
+  height: 100px;
+  background-color: #3E8290;
+  color: white;
+}
+
+.footer-content {
+  max-width: 960px;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.0875rem;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-content .copyright {
+  font-size: 14px;
+}
+
+.footer-link, .footer-link:hover, .footer-link:active, .footer-link:visited {
+  text-decoration: none;
+  color: white;
+}
