@@ -75,6 +75,10 @@
   margin-bottom: 10px;
 }
 
+.content a, .content a:visited, .content a:active, .content a:hover {
+  color: #424B54;
+}
+
 .disclaimer {
   margin-top: 50px;
   font-size: 14px;
