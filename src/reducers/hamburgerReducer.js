@@ -1,10 +1,10 @@
 const INITIAL_STATE = {
-    count: 8
+    isMobileNavOpen: false
 }
 
 export default (state = INITIAL_STATE, action) => {
-    if (action.type === `INCREMENT`) {
-        return { ...state, count: action.countValue }
+    if (action.type === `TOGGLE_MOBILE_NAV`) {
+        return { ...state, isMobileNavOpen: !state.isMobileNavOpen }
     }
 
     return state
