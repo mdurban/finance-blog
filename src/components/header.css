@@ -80,7 +80,6 @@
 
 @media screen and (min-width: 900px) {
   .mobile-only {
-    z-index: 9999;
     display: none;
   }
 }
