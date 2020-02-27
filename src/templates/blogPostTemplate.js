@@ -20,9 +20,13 @@ function BlogPostTemplate({ data }) {
           <h2 className='date'>{frontmatter.date}</h2>
           <div className='blog-banner'>
             <img className='blog-banner-img' src={image} alt="Logo" />
-            <a className='blog-img-credit' href={frontmatter.imageCredit}>
-              Image by <span>{frontmatter.imageAuthor}</span>
-            </a>
+            {
+              frontmatter.imageAuthor &&
+              <a className='blog-img-credit' href={frontmatter.imageCredit}>
+                Image by <span>{frontmatter.imageAuthor}</span>
+              </a>
+            }
+
           </div>
           <div
             className='content'

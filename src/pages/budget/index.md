@@ -4,8 +4,8 @@ title: "Creating a Budget"
 description: This post is related to the gatsbyjs
 date: '2019-07-28'
 image: 'beach'
-imageCredit: 'https://www.flickr.com/photos/22887612@N08/2199605103/'
-imageAuthor: 'weddingssc1'
+imageCredit: ''
+imageAuthor: ''
 ---
 **Creating a budget** is the first step required when getting your finances in order. In this article, I'll outline the steps that I took in this process and highlight the importance of a budget in your financial strategy.
 

@@ -4,8 +4,8 @@ title: "Building an Emergency Fund"
 description: This post is related to the gatsbyjs
 date: '2019-07-10'
 image: 'flowers'
-imageCredit: 'https://www.flickr.com/photos/pictures-of-money/17121706878/'
-imageAuthor: 'Pictures of Money'
+imageCredit: ''
+imageAuthor: ''
 ---
 An **emergency fund** is the money you have set aside that you only use in case of emergency (i.e. home/car repairs, medical emergency, unexpected job loss). I prioritized building my emergency fund up before doing anything else with my money. Paying off student loans faster or contributing more to retirement accounts are great financial strategies but I put having an emergency fund secured above all.
 
