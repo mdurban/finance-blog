@@ -4,10 +4,9 @@ import { createStore as reduxCreateStore } from 'redux';
 import rootReducer from '../state'
 
 const createStore = () => reduxCreateStore(
-  rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  );
+  rootReducer
+);
 
 export default ({ element }) => (
-  <Provider store={createStore()}>{element}</Provider>  
+  <Provider store={createStore()}>{element}</Provider>
 )
