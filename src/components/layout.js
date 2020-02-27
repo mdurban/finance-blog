@@ -11,6 +11,7 @@ import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import HamburgerMenuContainer from "./HamburgerMenuContainer";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,6 +27,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header />
+        <HamburgerMenuContainer />
         <div
           style={{
             margin: `0 auto`,
