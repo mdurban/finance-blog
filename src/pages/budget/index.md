@@ -3,7 +3,7 @@ path: "/budget"
 title: "Creating a Budget"
 description: This post is related to the gatsbyjs
 date: '2019-07-28'
-image: 'budget'
+image: 'beach'
 imageCredit: 'https://www.flickr.com/photos/22887612@N08/2199605103/'
 imageAuthor: 'weddingssc1'
 ---

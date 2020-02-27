@@ -3,7 +3,7 @@ path: "/retirement"
 title: "401(k) Basics"
 description: This post is related to the gatsbyjs
 date: '2019-08-07'
-image: 'flying-money'
+image: 'rocks'
 imageCredit: 'https://www.flickr.com/photos/68751915@N05/6551534889/'
 imageAuthor: '401kcalculator.org'
 ---

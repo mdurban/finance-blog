@@ -44,10 +44,12 @@ const blogPreview = (edge, key) => {
   const image = require(`../assets/${edge.node.frontmatter.image}-tiny.jpg`)
   return <Link className='blog-link' to={edge.node.frontmatter.path} key={key}>
     <div className='blog-preview-container'>
-      <div className='blog-banner-img-container'><img className='blog-banner-img' src={image} alt="Logo" /></div>
-      <div className='blog-title'>{edge.node.frontmatter.title}</div>
-      <div className='blog-date'>{edge.node.frontmatter.date}</div>
-      <div className='blog-excerpt'>{edge.node.excerpt}</div>
+      <div className='blog-banner-img-container'><img className='blog-img' src={image} alt="Logo" /></div>
+      <div className='blog-info'>
+        <div className='blog-title'>{edge.node.frontmatter.title}</div>
+        <div className='blog-date'>{edge.node.frontmatter.date}</div>
+        <div className='blog-excerpt'>{edge.node.excerpt}</div>
+      </div>
     </div>
   </Link>
 }
