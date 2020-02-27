@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lato');
+.background-container {
+  background: cyan;
+}
 
-.blog-header {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: #424B54;
-  font-family: 'Lato', sans-serif;
-  font-size: 24px;
+.banner-container {
+  background: white;
 }
 
 .banner {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   color: 151515;
   font-family: 'Lato', sans-serif;
@@ -51,6 +53,26 @@
   }
 }
 
+.blog-background {
+  background: #ebebeb;
+  background: white;
+  padding: 20px;
+}
+
+.blog-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #424B54;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+
 .blog-posts-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -78,12 +100,14 @@
   border-color: #AAAAAA;
   height: 100%;
   max-height: 340px;
+  background: white;
+  border-radius: 5px;
 }
 
 .blog-preview-container:hover {
-  -moz-box-shadow:    3px 3px 7px 3px #ccc;
+  -moz-box-shadow: 3px 3px 7px 3px #ccc;
   -webkit-box-shadow: 3px 3px 7px 3px #ccc;
-  box-shadow:         3px 3px 7px 3px #ccc;
+  box-shadow: 3px 3px 7px 3px #ccc;
 }
 
 .blog-title {
