@@ -28,7 +28,7 @@ const IndexPage = ({
       </div>
       <div className='blog-background'>
         <div className='blog-container'>
-          <div id='blogs' className='blog-header'>Articles</div>
+          <div id='blogs' className='blog-header'>Blog</div>
           <div className='blog-posts-container'>
             {
               edges.map((edge, key) => blogPreview(edge, key))

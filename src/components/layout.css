@@ -661,7 +661,6 @@ pre code:before, pre code:after, pre tt:before, pre tt:after {
 }
 
 .footer {
-  margin-top: 20px;
   height: 100px;
   background-color: #3E8290;
   color: white;
