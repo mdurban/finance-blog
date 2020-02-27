@@ -4,12 +4,12 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import './blog-post.css';
 
-function BlogPostTemplate({data}) {
+function BlogPostTemplate({ data }) {
 
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
   const imgPath = frontmatter.image
-  const image = require(`../assets/${imgPath}-sm.jpg`)
+  const image = require(`../assets/${imgPath}-tiny.jpg`)
 
   return (
     <Layout>
@@ -20,9 +20,13 @@ function BlogPostTemplate({data}) {
           <h2 className='date'>{frontmatter.date}</h2>
           <div className='blog-banner'>
             <img className='blog-banner-img' src={image} alt="Logo" />
-            <a className='blog-img-credit' href={frontmatter.imageCredit}>
-              Image by <span>{frontmatter.imageAuthor}</span>
-            </a>
+            {
+              frontmatter.imageAuthor &&
+              <a className='blog-img-credit' href={frontmatter.imageCredit}>
+                Image by <span>{frontmatter.imageAuthor}</span>
+              </a>
+            }
+
           </div>
           <div
             className='content'
@@ -30,9 +34,9 @@ function BlogPostTemplate({data}) {
           />
         </div>
         <div className='disclaimer'>
-          I am not a financial advisor. I know very little about finances, but I want to share what I've learned 
+          I am not a financial advisor. I know very little about finances, but I want to share what I've learned
           because it has made a big difference in my life.
-          I am by no means a financial expert in any capacity and you should 
+          I am by no means a financial expert in any capacity and you should
           get advice from a fiduciary financial advisor before making any financial decisions.
         </div>
       </div>
