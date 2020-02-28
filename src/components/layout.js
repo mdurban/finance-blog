@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
 import Header from "./Header"
 import "./layout.css"
-import MobileNavConnector from "./MobileNavConnector";
+import MobileNavConnector from "./MobileNav";
 
 const Layout = ({ children }) => (
   <StaticQuery
