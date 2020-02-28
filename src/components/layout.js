@@ -8,10 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
-
 import Header from "./header"
 import "./layout.css"
-import HamburgerMenuContainer from "./HamburgerMenuContainer";
 import MobileNavConnector from "./MobileNavConnector";
 
 const Layout = ({ children }) => (
