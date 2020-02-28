@@ -8,9 +8,9 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
-import Header from "./Header"
 import "./layout.css"
 import MobileNavConnector from "./MobileNav";
+import GlobalHeader from "./GlobalHeader";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,7 +26,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <MobileNavConnector />
-        <Header />
+        <GlobalHeader />
         <div
           style={{
             margin: `0 auto`,

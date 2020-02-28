@@ -4,7 +4,7 @@ import React from "react"
 import './header.css'
 import HamburgerMenuContainer from "../HamburgerMenu";
 
-const Header = ({ siteTitle }) => (
+const GlobalHeader = ({ siteTitle }) => (
   <header>
     <MobileNavbar />
     <DesktopNavbar />
@@ -33,12 +33,12 @@ const MobileNavbar = () => (
 
 )
 
-Header.propTypes = {
+GlobalHeader.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+GlobalHeader.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default GlobalHeader
