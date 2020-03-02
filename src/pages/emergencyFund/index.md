@@ -3,7 +3,7 @@ path: "/emergencyFund"
 title: "Building an Emergency Fund"
 description: This post is related to the gatsbyjs
 date: '2019-07-10'
-image: 'flowers'
+image: 'fence'
 imageCredit: ''
 imageAuthor: ''
 ---
