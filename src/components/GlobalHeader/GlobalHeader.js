@@ -2,9 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import './header.css'
-import HamburgerMenuContainer from "./HamburgerMenuContainer";
+import HamburgerMenuContainer from "../HamburgerMenu";
 
-const Header = ({ isOnHomePage }) => (
+const GlobalHeader = ({ isOnHomePage }) => (
   <header>
     <MobileNavbar />
     <DesktopNavbar isOnHomePage={isOnHomePage} additionalClass={isOnHomePage ? 'full-navbar' : ''} />
@@ -35,12 +35,12 @@ const MobileNavbar = () => (
 
 )
 
-Header.propTypes = {
+GlobalHeader.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+GlobalHeader.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default GlobalHeader
