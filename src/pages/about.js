@@ -8,7 +8,7 @@ const About = () => (
   <Layout>
     <SEO title="about" />
     <div className='about-container'>
-      <h1>About</h1>
+      <h1 className='about-title'>About</h1>
       <p>
         When I tried learning the basics of finances, I was frustrated at how confusing it was.
         I had a difficult time finding any blog posts or podcasts aimed at people who knew nothing
