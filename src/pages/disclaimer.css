@@ -1,0 +1,14 @@
+.disclaimer-container {
+    max-width: 960px;
+    padding: 0px 1.0875rem 1.45rem;
+    margin: 0 auto;
+}
+
+.disclaimer-title {
+    color: #424B54;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-top: 10px;
+}
