@@ -12,8 +12,10 @@ import "./layout.css"
 import MobileNavConnector from "./MobileNav";
 import GlobalHeader from "./GlobalHeader";
 
-const Layout = ({ children }) => (
-  <StaticQuery
+const Layout = ({ children, }) => {
+  const renderHomePageNavBar = children[0] && children[0].props && children[0].props.title === 'Home'
+
+  return <StaticQuery
     query={graphql`
       query SiteTitleQuery {
         site {
@@ -26,7 +28,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <MobileNavConnector />
-        <GlobalHeader />
+        <GlobalHeader isOnHomePage={renderHomePageNavBar} />
         <div
           style={{
             margin: `0 auto`,
@@ -44,7 +46,7 @@ const Layout = ({ children }) => (
       </>
     )}
   />
-)
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

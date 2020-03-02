@@ -4,7 +4,7 @@ import { createStore as reduxCreateStore } from 'redux';
 import rootReducer from '../state'
 
 const createStore = () => reduxCreateStore(
-  rootReducer
+  rootReducer,
 );
 
 export default ({ element }) => (
