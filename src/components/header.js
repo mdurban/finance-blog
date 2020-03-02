@@ -4,15 +4,15 @@ import React from "react"
 import './header.css'
 import HamburgerMenuContainer from "./HamburgerMenuContainer";
 
-const Header = ({ siteTitle }) => (
+const Header = ({ isOnHomePage }) => (
   <header>
     <MobileNavbar />
-    <DesktopNavbar />
+    <DesktopNavbar isOnHomePage={isOnHomePage} additionalClass={isOnHomePage ? 'full-navbar' : ''} />
   </header>
 )
 
-const DesktopNavbar = () => (
-  <div className='desktop'>
+const DesktopNavbar = ({ isOnHomePage, additionalClass }) => (
+  <div className={`desktop ${additionalClass}`}>
     <div className='navbar'>
       <div className='navbar-title'><Link className='hide-linkiness' to='/'>moneyfor<span className='partial-title'>noobs</span></Link></div>
       <div className='navbar-nav-elements'>
@@ -22,7 +22,9 @@ const DesktopNavbar = () => (
         <div className='navbar-element'><Link className='navbar-link' to='/contact/'>Contact</Link></div>
       </div>
     </div>
-    <hr className='title-divider' />
+    {
+      !isOnHomePage && <hr className='title-divider' />
+    }
   </div>
 )
 

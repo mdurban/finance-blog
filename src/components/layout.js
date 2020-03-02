@@ -11,11 +11,12 @@ import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import HamburgerMenuContainer from "./HamburgerMenuContainer";
 import MobileNavConnector from "./MobileNavConnector";
 
-const Layout = ({ children }) => (
-  <StaticQuery
+const Layout = ({ children, }) => {
+  const renderHomePageNavBar = children[0] && children[0].props && children[0].props.title === 'Home'
+
+  return <StaticQuery
     query={graphql`
       query SiteTitleQuery {
         site {
@@ -28,7 +29,12 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <MobileNavConnector />
-        <Header />
+        {
+          renderHomePageNavBar && <Header isOnHomePage={true} />
+        }
+        {
+          !renderHomePageNavBar && <Header isOnHomePage={false} />
+        }
         <div
           style={{
             margin: `0 auto`,
@@ -48,7 +54,7 @@ const Layout = ({ children }) => (
       </>
     )}
   />
-)
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
