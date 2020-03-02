@@ -6,6 +6,15 @@
   margin: 0 auto;
 }
 
+.contact-title {
+  color: #424B54;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-top: 10px;
+}
+
 .email-form {
   display: block;
   width: calc(100% - 15px);

@@ -3,11 +3,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import './contact.css'
 
-const About = () => (
+const Contact = () => (
   <Layout>
-    <SEO title="about" />
+    <SEO title="contact" />
     <div className='contact-container'>
-      <h1>Contact</h1>
+      <h1 className='contact-title'>Contact</h1>
       <form id='contact-form'>
         <input className='email-form email-subject' type='text' placeholder='SUBJECT'></input>
         <textarea className='email-form email-message' placeholder='MESSAGE' rows='8' cols='50'></textarea>
@@ -22,4 +22,4 @@ const About = () => (
   </Layout>
 )
 
-export default About
+export default Contact
