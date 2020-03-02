@@ -14,18 +14,25 @@ const IndexPage = ({
   return <Layout>
     <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`, `money for noobs`, 'article', 'blog', 'budget', 'retirement']} />
     <div className="background-container">
-      <div className='banner-container'>
+      <div className="hero-image">
+        <div className="hero-text">
+          <div className='hero-title'>Making money easy</div>
+          <div className='hero-subtitle'>Brought to you by people who don't know enough
+          about money to make it complicated</div>
+        </div>
+      </div>
+      {/* <div className='banner-container'>
         <div className='banner'>
           <div className='banner-title'>
             Making money easy. Brought to you by people who don't know enough
             about money to make it complicated.
-      </div>
+          </div>
           <img className='banner-img' src={pig} alt="Logo" />
           <a className='img-credit' href='https://www.flickr.com/photos/pictures-of-money/17299241862/'>
             Image by Pictures of Money
-      </a>
+        </a>
         </div>
-      </div>
+      </div> */}
       <div className='blog-background'>
         <div className='blog-container'>
           <div id='blogs' className='blog-header'>Blog</div>
