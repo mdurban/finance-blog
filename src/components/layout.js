@@ -29,12 +29,7 @@ const Layout = ({ children, }) => {
     render={data => (
       <>
         <MobileNavConnector />
-        {
-          renderHomePageNavBar && <Header isOnHomePage={true} />
-        }
-        {
-          !renderHomePageNavBar && <Header isOnHomePage={false} />
-        }
+        <Header isOnHomePage={renderHomePageNavBar} />
         <div
           style={{
             margin: `0 auto`,
