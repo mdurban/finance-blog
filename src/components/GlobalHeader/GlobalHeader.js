@@ -14,7 +14,7 @@ const GlobalHeader = ({ isOnHomePage }) => (
 const DesktopNavbar = ({ isOnHomePage, additionalClass }) => (
   <div className={`desktop ${additionalClass}`}>
     <div className='navbar'>
-      <div className='navbar-title'><Link className='hide-linkiness' to='/'>moneyfor<span className='partial-title'>noobs</span></Link></div>
+      <Logo />
       <div className='navbar-nav-elements'>
         <div className='navbar-element'><Link className='navbar-link' to='/'>Home</Link></div>
         <div className='navbar-element'><Link className='navbar-link' to='#blogs'>Blog</Link></div>
@@ -30,9 +30,15 @@ const DesktopNavbar = ({ isOnHomePage, additionalClass }) => (
 
 const MobileNavbar = () => (
   <div className='mobile-only'>
+    <Logo />
     <HamburgerMenuContainer />
   </div>
+)
 
+const Logo = () => (
+  <div className='navbar-title'>
+    <Link className='hide-linkiness' to='/'>moneyfor<span className='partial-title'>noobs</span></Link>
+  </div>
 )
 
 GlobalHeader.propTypes = {
