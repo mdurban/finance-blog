@@ -73,6 +73,11 @@
   padding: 15px;
 }
 
+.mobile-only .navbar-title {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (min-width: 900px) {
   .mobile-only {
     display: none;
