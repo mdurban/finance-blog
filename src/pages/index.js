@@ -1,6 +1,5 @@
 import { graphql, Link } from "gatsby";
 import React from "react";
-import pig from '../assets/piggie-opacity.png';
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import './home-page.css';
@@ -22,7 +21,43 @@ const IndexPage = ({
         </div>
       </div>
       <div className='blog-background'>
+
         <div className='blog-container'>
+          <div className='glossary-link-container'>
+            <div className='blog-header'>Glossary</div>
+            <div className='glossary-introduction'>View our glossary of commonly used financial terms for an overview on the lingo that you may have heard but never understood.</div>
+            {/* <div className='glossary-entry'>
+              <span className='entry-name'>Asset</span>
+              <span className='entry-definition'> - Something can generate cash flow, reduce expenses, or improve sales, regardless of whether it's manufacturing equipment or a patent.</span>
+            </div>
+            <div className='glossary-entry'>
+              <span className='entry-name partial-blur'>Bond</span>
+              <span className='entry-definition partial-blur'> - Something that represents a loan made by an investor to a borrower (typically corporate or governmental).</span>
+            </div>
+            <div className='glossary-entry'>
+              <span className='entry-name total-blur'>Dividend</span>
+              <span className='entry-definition total-blur'> - The distribution of reward from a portion of the company's earnings and is paid to a class of its shareholders.</span>
+            </div>
+            <div className='glossary-entry'>
+              <span className='entry-name blur'>Dividend</span>
+              <span className='entry-definition blur'> - The distribution of reward from a portion of the company's earnings and is paid to a class of its shareholders.</span>
+            </div> */}
+            <div className='glossary-entry'>
+              <span className='entry-name'>Asset</span>
+              <span className='entry-definition'> - Something can generate cash flow, reduce expenses, or improve sales, regardless of whether it's manufacturing equipment or a patent.</span>
+            </div>
+            <div className='glossary-entry'>
+              <span className='entry-name partial-blur'>Bond</span>
+              <span className='entry-definition partial-blur'> - Something that represents a loan made by an investor to a borrower (typically corporate or governmental).</span>
+            </div>
+            <div className='glossary-entry'>
+              <span className='entry-name total-blur'>Dividend</span>
+              <span className='entry-definition total-blur'> - The distribution of reward from a portion of the company's earnings and is paid to a class of its shareholders.</span>
+            </div>
+            <div className='blur-box' />
+          </div>
+          <Link className='to-glossary-link' to='/glossary'>View more</Link>
+
           <div id='blogs' className='blog-header'>Blog</div>
           <div className='blog-posts-container'>
             {

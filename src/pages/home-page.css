@@ -90,6 +90,56 @@
   margin-right: auto;
 }
 
+.glossary-link-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.glossary-introduction {
+  margin-bottom: 25px;
+}
+
+.to-glossary-link {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.blur-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 100px 0;
+  background-image: linear-gradient(to bottom, transparent, white);
+}
+
+.to-glossary-link:visited {
+  text-decoration: none;
+  color: #1f4148;
+}
+
+.to-glossary-link:hover {
+  color: #3E8290;
+  cursor: pointer;
+}
+
+/* .partial-blur {
+  color: transparent;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.total-blur {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.blur {
+  color: transparent;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
 .blog-header {
   margin-top: 20px;
   margin-bottom: 10px;
