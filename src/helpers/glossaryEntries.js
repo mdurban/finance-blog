@@ -1,25 +1,16 @@
-import React from 'react'
-import './glossary.css'
-import Layout from '../components/layout';
-import SEO from "../components/seo"
-import { glossaryEntries } from '../helpers/glossaryEntries';
-// https://www.investopedia.com/financial-term-dictionary-4769738
-const Glossary = () => (
-    <Layout>
-        <SEO title="glossary" />
+const glossaryEntries = () => ([
+    { entry: "Asset", definition: "A resource you own that has economic value and can generate money. Cash, stocks, bonds and your home are all considered assets." },
+    { entry: "Bond", definition: "A loan taken out by someone (usually the government or a corporation) when they want to raise money. This debt is then payed back at a later date to the investor, or issuer (the person who bought the bond). It usually accrues interest, which is also payed to the issuer." },
+    { entry: "Dividend", definition: "Money that is payed on a regular schedule by a company to its shareholders (those who own stock in the company). Not all stocks yield dividends." },
+    { entry: "ETF (Exchange-Traded Fund)", definition: "A fund that is made up of a collection of assets (usually stocks) and are traded on the stock exchange like traditional stocks. Most ETFs track an index, similar to an index fund. They tend to have low fees." },
+    { entry: "Fiduciary", definition: "Someone that is legally obligated to give financial advice that is in the best interest of the client." },
+])
+
+export { glossaryEntries }
+/*
         <div className='glossary-container'>
             <h1 className='glossary-title'>Glossary of Terms</h1>
-            {
-                glossaryEntries().map((glossaryKeyValue, index) => (
-                    <>
-                        <div key={index} className='glossary-entry'>
-                            <span className='entry-name'>{glossaryKeyValue.entry}</span>
-                            <span className='entry-definition'> - {glossaryKeyValue.definition}</span>
-                        </div>
-                    </>
-                ))
-            }
-            {/* <div className='glossary-entry'>
+            <div className='glossary-entry'>
                 <span className='entry-name'>Asset</span>
                 <span className='entry-definition'> - Something can generate cash flow, reduce expenses, or improve sales, regardless of whether it's manufacturing equipment or a patent.</span>
             </div>
@@ -84,9 +75,10 @@ const Glossary = () => (
             <div className='glossary-entry'>
                 <span className='entry-name'>Inflation</span>
                 <span className='entry-definition'> - Liquidity describes the degree to which an asset or security can be quickly bought or sold in the market at a price reflecting its intrinsic value. In other words: the ease of converting it to cash.</span>
-            </div> */}
+            </div>
 
-            {/* <div>Investing</div>
+
+             <div>Investing</div>
             <div>401(k)</div>
             <div>Roth</div>
             <div>Traditional</div>
@@ -100,9 +92,6 @@ const Glossary = () => (
             <div>Yield - Yield refers to the earnings generated and realized on an investment over a particular period of time. It's expressed as a percentage based on the invested amount, current market value, or face value of the security. It includes the interest earned or dividends received from holding a particular security. Depending on the valuation (fixed vs. fluctuating) of the security, yields may be classified as known or anticipated.</div>
             <div>ETF - An exchange-traded fund (ETF) is a type of security that involves a collection of securities—such as stocks—that often tracks an underlying index, although they can invest in any number of industry sectors or use various strategies. ETFs are in many ways similar to mutual funds; however, they are listed on exchanges and ETF shares trade throughout the day just like ordinary stock.</div>
             <div>Index Fund - An index fund is a type of mutual fund with a portfolio constructed to match or track the components of a financial market index. An index mutual fund is said to provide broad market exposure, low operating expenses and low portfolio turnover. Index funds are generally considered ideal core portfolio holdings for retirement accounts, such as individual retirement accounts (IRAs) and 401(k) accounts.</div>
-            <div>Mutual Fund - A mutual fund is a type of financial vehicle made up of a pool of money collected from many investors to invest in securities like stocks, bonds, money market instruments, and other assets. Mutual funds are operated by professional money managers, who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors.</div> */}
-        </div>
-    </Layout>
-)
+            <div>Mutual Fund - A mutual fund is a type of financial vehicle made up of a pool of money collected from many investors to invest in securities like stocks, bonds, money market instruments, and other assets. Mutual funds are operated by professional money managers, who allocate the fund's assets and attempt to produce capital gains or income for the fund's investors.</div>
 
-export default Glossary
+*/

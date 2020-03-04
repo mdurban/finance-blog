@@ -90,9 +90,15 @@
   margin-right: auto;
 }
 
+.glossary-description {
+  color: #848484;
+  padding: 10px 0 20px 0;
+}
+
 .glossary-link-container {
   position: relative;
   overflow: hidden;
+  font-size: 16px;
 }
 
 .glossary-introduction {
@@ -117,28 +123,17 @@
 
 .to-glossary-link:visited {
   text-decoration: none;
-  color: #1f4148;
+  color: #3E8290;
 }
 
 .to-glossary-link:hover {
-  color: #3E8290;
+  color: #78a8b1;
   cursor: pointer;
 }
 
-/* .partial-blur {
-  color: transparent;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+.glossary-preview-container {
+  margin-bottom: 50px;
 }
-
-.total-blur {
-  color: transparent;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-.blur {
-  color: transparent;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-} */
 
 .blog-header {
   margin-top: 20px;
