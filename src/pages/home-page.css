@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url('../assets/flowers-tiny.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url('../assets/city.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -179,6 +179,8 @@
 .blog-info {
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .blog-preview-container:hover {

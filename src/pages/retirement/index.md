@@ -3,8 +3,8 @@ path: "/retirement"
 title: "401(k) Basics"
 description: This post is related to the gatsbyjs
 date: '2019-08-07'
-image: 'rocks'
-imageCredit: ''
+image: 'retirement'
+imageCredit: 'https://www.piqsels.com/en/public-domain-photo-ffsos'
 imageAuthor: ''
 ---
 A **401(k)** is an American retirement savings plan that is offered by many traditional employers. These accounts (along with [IRAs](https://www.nerdwallet.com/article/investing/learn-about-ira-accounts)) are used by many as the backbone of retirement savings plans. They generally have good long-term growth because they are invested in stocks and/or bonds. Investing sounds scary and a lot of people try to stay away from the term,  but if you're contributing to your retirement account then you are most likely investing without even knowing it!

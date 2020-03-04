@@ -40,7 +40,9 @@ const IndexPage = ({
 const GlossaryPreview = () => (
   <div className='glossary-preview-container'>
     <div className='blog-header'>Glossary</div>
-    <div className='glossary-description'>Some writing here that describes what this glossary is for sdfadsfdfaj;a a sa. Some writing here that describes what this glossary is for. Some writing here that describes what this glossary is for. Some writing here that describes what this glossary is for.</div>
+    <div className='glossary-description'>
+      Personal finance professionals can use a lot of financial lingo that can make your head spin. Our hope is to clarify what these words mean and provide a single place that you can reference terms whenever you hear them come up in conversation.
+    </div>
     <div className='glossary-link-container'>
       {
         glossaryEntries().slice(0, 4).map((glossaryKeyValue, index) => (
@@ -67,7 +69,7 @@ const blogPreview = (edge, key) => {
       <div className='blog-info'>
         <div className='blog-title'>{edge.node.frontmatter.title}</div>
         <div className='blog-date'>{edge.node.frontmatter.date}</div>
-        <div className='blog-excerpt'>{edge.node.excerpt}</div>
+        {/* <div className='blog-excerpt'>{edge.node.excerpt}</div> */}
       </div>
     </div>
   </Link>
