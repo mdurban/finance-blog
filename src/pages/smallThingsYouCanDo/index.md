@@ -3,7 +3,7 @@ path: "/smallThingsYouCanDo"
 title: "Small Things You Can Do to Save a Little"
 description: This post is related to the gatsbyjs
 date: '2019-11-12'
-image: 'mountain'
+image: 'cash'
 imageCredit: ''
 imageAuthor: ''
 ---
