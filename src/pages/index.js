@@ -69,7 +69,6 @@ const blogPreview = (edge, key) => {
       <div className='blog-info'>
         <div className='blog-title'>{edge.node.frontmatter.title}</div>
         <div className='blog-date'>{edge.node.frontmatter.date}</div>
-        {/* <div className='blog-excerpt'>{edge.node.excerpt}</div> */}
       </div>
     </div>
   </Link>

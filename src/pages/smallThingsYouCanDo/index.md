@@ -4,7 +4,7 @@ title: "Small Things You Can Do to Save a Little"
 description: This post is related to the gatsbyjs
 date: '2019-11-12'
 image: 'cash'
-imageCredit: ''
+imageCredit: 'https://www.piqsels.com/en/public-domain-photo-zkmig'
 imageAuthor: ''
 ---
 People frequently ask me about practical things they can do to save money. While I understand that I live rather frugally (fine, cheap), I'm not eating-Ramen-for-every-meal frugal.
