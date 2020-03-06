@@ -2,7 +2,7 @@ import { graphql, Link } from "gatsby";
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import './home-page.css';
+import './home-page.scss';
 import { glossaryEntries } from "../helpers/glossaryEntries";
 
 
@@ -22,10 +22,9 @@ const IndexPage = ({
         </div>
       </div>
       <div className='blog-background'>
-
         <div className='blog-container'>
           <GlossaryPreview />
-          <div id='blogs' className='blog-header'>Blog</div>
+          <div id='blogs' className='section-header'>Blog</div>
           <div className='blog-posts-container'>
             {
               edges.map((edge, key) => blogPreview(edge, key))
@@ -39,7 +38,7 @@ const IndexPage = ({
 
 const GlossaryPreview = () => (
   <div className='glossary-preview-container'>
-    <div className='blog-header'>Glossary</div>
+    <div className='section-header'>Glossary</div>
     <div className='glossary-description'>
       Personal finance professionals can use a lot of financial lingo that can make your head spin. Our hope is to clarify what these words mean and provide a single place that you can reference terms whenever you hear them come up in conversation.
     </div>
@@ -65,7 +64,7 @@ const blogPreview = (edge, key) => {
 
   return <Link className='blog-link' to={edge.node.frontmatter.path} key={key}>
     <div className='blog-preview-container'>
-      <div className='blog-banner-img-container'><img className='blog-img' src={image} alt="Logo" /></div>
+      <div><img className='blog-img' src={image} alt="Logo" /></div>
       <div className='blog-info'>
         <div className='blog-title'>{edge.node.frontmatter.title}</div>
         <div className='blog-date'>{edge.node.frontmatter.date}</div>
