@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './mobile-nav.css'
+import './mobile-nav.scss'
 import { Link } from "gatsby"
 
 const MobileNav = ({ navOpen, toggleMobileNav }) => {
