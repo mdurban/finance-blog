@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 @import '../styles/style.scss';
 .blog-post-container {
   width: 80%;
@@ -72,10 +74,11 @@
 }
 
 .content h2 {
-  color: $brand-green;
-  font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
-  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: $brand-green;
 }
 
 .content a, .content a:visited, .content a:active, .content a:hover {

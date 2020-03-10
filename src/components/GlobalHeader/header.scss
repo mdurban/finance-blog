@@ -31,7 +31,7 @@
   font-family: 'Lato', sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: #1f4148;
+  color: $brand-green;
 }
 
 .partial-title {
@@ -40,7 +40,7 @@
 
 .hide-linkiness, .hide-linkiness:visited, .hide-linkiness:active, .hide-linkiness:hover {
   text-decoration: none;
-  color: #1f4148;
+  color: $brand-green;
 }
 
 .navbar-element {
