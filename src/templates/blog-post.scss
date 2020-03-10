@@ -30,7 +30,7 @@
 */
 
 .title {
-  color: #424B54;
+  color: $header-text;
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
   text-transform: uppercase;
@@ -39,7 +39,7 @@
 }
 
 .date {
-  color: #424B54;
+  color: $header-text;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
 }
@@ -72,14 +72,14 @@
 }
 
 .content h2 {
-  color: #3E8290;
+  color: $brand-green;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
   font-size: 24px;
 }
 
 .content a, .content a:visited, .content a:active, .content a:hover {
-  color: #424B54;
+  color: $header-text;
 }
 
 .disclaimer {

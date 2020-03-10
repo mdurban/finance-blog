@@ -32,7 +32,7 @@
 }
 
 .email-form:focus, .email-form:active {
-  outline-color: #3E8290;
+  outline-color: $brand-green;
 }
 
 .email-subject {
@@ -41,7 +41,7 @@
 
 .email-submit {
   margin-top: 10px;
-  background: #3E8290;
+  background: $brand-green;
   border-radius: 5px;
   border: none;
   height: 40px;
@@ -57,6 +57,6 @@
 }
 
 .email-submit:hover {
-  background: #4898a8;
+  background: $lightened-brand-green;
   cursor: pointer;
 }

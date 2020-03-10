@@ -1,3 +1,5 @@
+@import '../styles/style.scss';
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -662,7 +664,7 @@ pre code:before, pre code:after, pre tt:before, pre tt:after {
 
 .footer {
   height: 100px;
-  background-color: #3E8290;
+  background-color: $brand-green;
   color: white;
 }
 
