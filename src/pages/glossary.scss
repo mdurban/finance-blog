@@ -1,16 +1,11 @@
 @import '../styles/style.scss';
 
 .glossary-container {
-    max-width: 960px;
-    padding: 0px 1.0875rem 1.45rem;
-    margin: 0 auto;
+    @include page-container;
 }
 
 .glossary-title {
-    color: $header-text;
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    text-transform: uppercase;
+    @include page-title;
     padding-top: 20px;
     padding-top: 10px;
 }
