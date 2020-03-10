@@ -8,10 +8,7 @@
 }
 
 .contact-title {
-  color: $header-text;
-  font-family: 'Roboto', sans-serif;
-  font-size: 28px;
-  text-transform: uppercase;
+  @include page-title;
   padding-top: 20px;
   padding-top: 10px;
 }
