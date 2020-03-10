@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import './blog-post.css';
+import './blog-post.scss';
 
 function BlogPostTemplate({ data }) {
 

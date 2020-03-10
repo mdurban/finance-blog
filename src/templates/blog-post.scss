@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import '../styles/style.scss';
+
 .blog-post-container {
   width: 80%;
   margin-left: auto;
@@ -12,24 +13,8 @@
   }
 }
 
-/* Roboto, Open Sans and Lato. /*
-
-/*
-  color: #031927; midnight blue
-  color: #424B54; outer space
-  color: #3E8290; teal blue
-  color: #93A8AC; cadet gray
-
-  color #151515; LICORICE
-  color #222222; RAISIN
-  color: #0B4F6C; DARK IMPERIAL BLUE
-  color: #FBFBFF; GHOST WHITE
-  color: #DB2B39; RUSTY RED
-  color: #AAAAAA; DARK MEDIUM GRAY
-*/
-
 .title {
-  color: #424B54;
+  color: $header-text;
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
   text-transform: uppercase;
@@ -38,7 +23,7 @@
 }
 
 .date {
-  color: #424B54;
+  color: $header-text;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
 }
@@ -64,21 +49,22 @@
 }
 
 .content {
-  color: #151515;
+  color: $primary-text;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
 }
 
 .content h2 {
-  color: #3E8290;
-  font-family: 'Roboto', sans-serif;
   margin-bottom: 10px;
-  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: $brand-green;
 }
 
 .content a, .content a:visited, .content a:active, .content a:hover {
-  color: #424B54;
+  color: $header-text;
 }
 
 .disclaimer {

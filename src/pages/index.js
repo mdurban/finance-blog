@@ -45,12 +45,10 @@ const GlossaryPreview = () => (
     <div className='glossary-link-container'>
       {
         glossaryEntries().slice(0, 4).map((glossaryKeyValue, index) => (
-          <>
-            <div key={index}>
-              <span className='entry-name'>{glossaryKeyValue.entry}</span>
-              <span className='entry-definition'> - {glossaryKeyValue.definition}</span>
-            </div>
-          </>
+          <div key={index}>
+            <span className='entry-name'>{glossaryKeyValue.entry}</span>
+            <span className='entry-definition'> - {glossaryKeyValue.definition}</span>
+          </div>
         ))
       }
       <div className='blur-box' />

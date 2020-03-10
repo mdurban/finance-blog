@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import '../styles/style.scss';
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url('../assets/city.jpg');
   height: 100vh;
@@ -7,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  font-family: 'Lato', sans-serif;
 
   @media (max-width: 700px) {
     height: 60vh;
@@ -56,6 +56,8 @@
   padding: 20px;
   padding-bottom: 75px;
   border-top: 2px solid #d2d2d2;
+  color: $primary-text;
+  font-family: 'Roboto', sans-serif;
 
   .blog-container {
     max-width: 960px;
@@ -94,15 +96,15 @@
       .to-glossary-link {
         text-decoration: none;
         font-weight: 700;
-        color: #3E8290;
+        color: $brand-green;
 
         &:active &:visited {
           text-decoration: none;
-          color: #3E8290;
+          color: $brand-green;
         }
         
         &:hover {
-          color: #78a8b1;
+          color: $lightened-brand-green;
           cursor: pointer;
         }
       }
@@ -123,7 +125,7 @@
         text-decoration: none;
 
         .blog-preview-container {
-          color: #424B54;
+          color: $header-text;
           border-style: solid;
           border-width: 1px;
           border-color: #d2d2d2;
@@ -175,7 +177,7 @@
 .section-header {
   margin-top: 20px;
   margin-bottom: 10px;
-  color: #424B54;
+  color: $header-text;
   font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: bold;

@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
-import "./layout.css"
+import "./layout.scss"
 import MobileNavConnector from "./MobileNav";
 import GlobalHeader from "./GlobalHeader";
 

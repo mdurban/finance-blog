@@ -1,5 +1,5 @@
 import React from 'react'
-import './glossary.css'
+import './glossary.scss'
 import Layout from '../components/layout';
 import SEO from "../components/seo"
 import { glossaryEntries } from '../helpers/glossaryEntries';

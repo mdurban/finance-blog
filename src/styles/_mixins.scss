@@ -1,0 +1,6 @@
+@mixin page-title {
+    color: $header-text;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+}
