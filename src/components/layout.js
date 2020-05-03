@@ -29,20 +29,16 @@ const Layout = ({ children, }) => {
       <>
         <MobileNavConnector />
         <GlobalHeader isOnHomePage={renderHomePageNavBar} />
-        <div
-          style={{
-            margin: `0 auto`,
-            paddingTop: 0,
-          }}
-        >
-          <main>{children}</main>
-        </div>
-        <div className='footer'>
-          <div className='footer-content'>
-            <Link className='footer-link' to="/disclaimer/">Disclaimer and Privacy Policy</Link>
-            <div className='copyright'>© 2019 MoneyForNoobs</div>
+        <div className='app-container' >
+          <main className='content-container'>{children}</main>
+          <div className='footer'>
+            <div className='footer-content'>
+              <Link className='footer-link' to="/disclaimer/">Disclaimer and Privacy Policy</Link>
+              <div className='copyright'>© 2019 MoneyForNoobs</div>
+            </div>
           </div>
         </div>
+
       </>
     )}
   />
