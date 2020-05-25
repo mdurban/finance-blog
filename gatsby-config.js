@@ -33,14 +33,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`, // TODO - add a blogs subdirectory
+        path: `${__dirname}/src/pages/blogPosts`,
         name: "blog-posts", // TODO - change name to blogs
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: "UA-145304482-1",
       },
     },
