@@ -1,16 +1,11 @@
-/**
- * Layout component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
 import "./layout.scss"
 import MobileNavContainer from "./MobileNav";
 import GlobalHeader from "./GlobalHeader";
+import Helmet from "react-helmet"
+import favicon from '../images/favicon.png'
 
 const Layout = ({ children, }) => {
   const renderHomePageNavBar = children[0] && children[0].props && children[0].props.title === 'Home'
@@ -27,6 +22,9 @@ const Layout = ({ children, }) => {
     `}
     render={data => (
       <>
+        <Helmet>
+          <link rel="icon" href={favicon} />
+        </Helmet>
         <MobileNavContainer />
         <GlobalHeader isOnHomePage={renderHomePageNavBar} />
         <div className='app-container' >
