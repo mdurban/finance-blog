@@ -6,7 +6,7 @@ import './home-page.scss';
 import { glossaryEntries } from "../helpers/glossaryEntries";
 
 
-const IndexPage = ({
+const Home = ({
   data: {
     allMarkdownRemark: { edges },
   },
@@ -58,7 +58,7 @@ const GlossaryPreview = () => (
 )
 
 const blogPreview = (edge, key) => {
-  const image = require(`../assets/${edge.node.frontmatter.image}-tiny.jpg`)
+  const image = require(`../images/${edge.node.frontmatter.image}-tiny.jpg`)
 
   return <Link className='blog-link' to={edge.node.frontmatter.path} key={key}>
     <div className='blog-preview-container'>
@@ -71,7 +71,7 @@ const blogPreview = (edge, key) => {
   </Link>
 }
 
-export default IndexPage
+export default Home
 
 export const pageQuery = graphql`
   query {

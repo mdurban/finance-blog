@@ -1,3 +1,3 @@
-import MobileNavConnector from './MobileNavConnector'
+import MobileNavContainer from './MobileNavContainer'
 
-export default MobileNavConnector
+export default MobileNavContainer

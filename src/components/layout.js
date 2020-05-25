@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
 import "./layout.scss"
-import MobileNavConnector from "./MobileNav";
+import MobileNavContainer from "./MobileNav";
 import GlobalHeader from "./GlobalHeader";
 
 const Layout = ({ children, }) => {
@@ -27,14 +27,14 @@ const Layout = ({ children, }) => {
     `}
     render={data => (
       <>
-        <MobileNavConnector />
+        <MobileNavContainer />
         <GlobalHeader isOnHomePage={renderHomePageNavBar} />
         <div className='app-container' >
           <main className='content-container'>{children}</main>
           <div className='footer'>
             <div className='footer-content'>
               <Link className='footer-link' to="/disclaimer/">Disclaimer and Privacy Policy</Link>
-              <div className='copyright'>© 2019 MoneyForNoobs</div>
+              <div className='copyright'>© 2020 MoneyForNoobs</div>
             </div>
           </div>
         </div>
