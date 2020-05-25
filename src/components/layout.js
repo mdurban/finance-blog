@@ -34,7 +34,7 @@ const Layout = ({ children, }) => {
           <div className='footer'>
             <div className='footer-content'>
               <Link className='footer-link' to="/disclaimer/">Disclaimer and Privacy Policy</Link>
-              <div className='copyright'>© 2019 MoneyForNoobs</div>
+              <div className='copyright'>© 2020 MoneyForNoobs</div>
             </div>
           </div>
         </div>
