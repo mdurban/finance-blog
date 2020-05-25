@@ -58,7 +58,7 @@ const GlossaryPreview = () => (
 )
 
 const blogPreview = (edge, key) => {
-  const image = require(`../assets/${edge.node.frontmatter.image}-tiny.jpg`)
+  const image = require(`../images/${edge.node.frontmatter.image}-tiny.jpg`)
 
   return <Link className='blog-link' to={edge.node.frontmatter.path} key={key}>
     <div className='blog-preview-container'>

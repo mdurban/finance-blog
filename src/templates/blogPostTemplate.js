@@ -9,7 +9,7 @@ function BlogPostTemplate({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
   const imgPath = frontmatter.image
-  const image = require(`../assets/${imgPath}-tiny.jpg`)
+  const image = require(`../images/${imgPath}-tiny.jpg`)
 
   return (
     <Layout>
