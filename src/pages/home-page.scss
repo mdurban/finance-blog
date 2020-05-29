@@ -131,7 +131,8 @@
           border-color: #d2d2d2;
           height: 100%;
           max-height: 340px;
-          background: #ebebeb;
+          background: #76797a;
+          color: white;
           display: flex;
           flex-direction: column;
           flex: 1 1 0px;
@@ -141,6 +142,8 @@
             -moz-box-shadow: 3px 3px 7px 3px #ccc;
             -webkit-box-shadow: 3px 3px 7px 3px #ccc;
             box-shadow: 3px 3px 7px 3px #ccc;
+            transform: scale(1.025, 1.025);
+            opacity: 0.85;
           }
 
           .blog-img {
@@ -161,7 +164,7 @@
             
             .blog-date {
               font-size: 14px;
-              color: #AAAAAA;
+              color: #e0e0e0;
               font-style: italic;
               font-family: 'Roboto', sans-serif;
             }

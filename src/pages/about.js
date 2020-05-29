@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const About = () => (
   <Layout>
-    <SEO title="about" />
+    <SEO title="about" keywords={['finance', 'personal finance', 'money']} />
     <div className='about-container'>
       <h1 className='about-title'>About</h1>
       <p>
