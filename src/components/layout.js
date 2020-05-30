@@ -25,9 +25,10 @@ const Layout = ({ children, }) => {
         <Helmet>
           <link rel="icon" href={favicon} />
         </Helmet>
-        <MobileNavContainer />
-        <GlobalHeader isOnHomePage={renderHomePageNavBar} />
         <div className='app-container' >
+
+          <MobileNavContainer />
+          <GlobalHeader isOnHomePage={renderHomePageNavBar} />
           <main className='content-container'>{children}</main>
           <div className='footer'>
             <div className='footer-content'>
