@@ -1,7 +1,7 @@
-import React, { useRef, useEffect } from "react";
-import Layout from "../layout";
-import SEO from "../seo";
-import './contact.scss';
+import React, { useRef, useEffect } from "react"
+import Layout from "../layout"
+import SEO from "../seo"
+import './contact.scss'
 
 const ContactPage = ({ displayConfirmation, displayContactConfirmation, hideContactConfirmation }) => {
   useEffect(() => {
