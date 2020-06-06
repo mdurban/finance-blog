@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import './blog-post.scss';
 
-function BlogPostTemplate({ data }) {
+function BlogEntryTemplate({ data }) {
 
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
@@ -44,7 +44,7 @@ function BlogPostTemplate({ data }) {
   )
 }
 
-export default BlogPostTemplate
+export default BlogEntryTemplate
 
 export const pageQuery = graphql`
   query($path: String!) {
