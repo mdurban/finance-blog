@@ -3,7 +3,7 @@ import ContactPage from "./ContactPage";
 import { displayContactConfirmation, hideContactConfirmation } from '../../actions/actionCreators'
 
 const mapStateToProps = state => ({
-  displayConfirmation: state.contactForm.displayConfirmation
+  shouldDisplayConfirmation: state.contactForm.displayConfirmation
 })
 
 export default connect(mapStateToProps, { displayContactConfirmation, hideContactConfirmation })(ContactPage)
