@@ -27,7 +27,15 @@
     "redux": "^4.0.5"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "babel-jest": "^26.0.1",
+    "babel-preset-gatsby": "^0.4.8",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.0.1",
+    "jest-preset-gatsby": "^1.0.58",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.13.1"
   },
   "keywords": [
     "gatsby"
@@ -39,6 +47,12 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "jest src/"
+  },
+  "jest": {
+    "preset": "jest-preset-gatsby",
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ]
   }
 }

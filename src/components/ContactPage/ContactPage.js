@@ -1,16 +1,14 @@
-import React, { useRef, useEffect } from "react"
+import React, { useEffect } from "react"
 import Layout from "../layout"
 import SEO from "../seo"
 import './contact.scss'
 
-const ContactPage = ({ displayConfirmation, displayContactConfirmation, hideContactConfirmation }) => {
+const ContactPage = ({ shouldDisplayConfirmation, displayContactConfirmation, hideContactConfirmation }) => {
   useEffect(() => {
-    return () => {
-      hideContactConfirmation()
-    }
+    return () => hideContactConfirmation()
   }, [])
 
-  const formElement = useRef(null)
+  const formElement = React.useRef(null)
 
   return (
     <Layout>
@@ -33,7 +31,7 @@ const ContactPage = ({ displayConfirmation, displayContactConfirmation, hideCont
           </button>
         </form>
         {
-          displayConfirmation && <div>Thank you for contacting The Money Noob!</div>
+          shouldDisplayConfirmation && <div className='confirmation-message'>Thank you for contacting The Money Noob!</div>
         }
       </div>
     </Layout>
