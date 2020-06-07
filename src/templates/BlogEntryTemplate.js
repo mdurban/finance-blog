@@ -1,19 +1,17 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
 import './blog-post.scss';
 
 function BlogEntryTemplate({ data }) {
 
-  const { markdownRemark } = data // data.markdownRemark holds our post data
+  const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   const imgPath = frontmatter.image
   const image = require(`../images/${imgPath}-tiny.jpg`)
 
   return (
     <Layout>
-      <SEO title="Articles" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`, `money for noobs`, 'article', 'blog', 'budget', 'retirement']} />
       <div className="blog-post-container">
         <div className="blog-post">
           <h1 className='title'>{frontmatter.title}</h1>

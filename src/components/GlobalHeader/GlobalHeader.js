@@ -42,12 +42,4 @@ const Logo = () => (
   </div>
 )
 
-GlobalHeader.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-GlobalHeader.defaultProps = {
-  siteTitle: ``,
-}
-
 export default GlobalHeader

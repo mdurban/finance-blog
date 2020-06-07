@@ -1,13 +1,11 @@
 import { Link } from "gatsby";
 import React from "react";
 import Layout from "../layout";
-import SEO from "../seo";
 import { glossaryEntries } from "../../helpers/glossaryEntries";
 import './home-page.scss';
 
 const HomePage = ({ blogPosts }) => {
   return <Layout>
-    <SEO title="Home" keywords={[`finance`, `basics`, `money`, `invest`, `investing`, `banks`, `cash`, `save`, `savings`, `money for noobs`, 'article', 'blog', 'budget', 'retirement']} />
     <div className="background-container">
       <div className="hero-image">
         <div className="hero-text">
