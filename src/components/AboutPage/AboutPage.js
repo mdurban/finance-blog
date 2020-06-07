@@ -1,12 +1,10 @@
 import React from "react"
 import Layout from "../layout"
-import SEO from "../seo"
 
 import './about.scss'
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="about" keywords={['finance', 'personal finance', 'money']} />
     <div className='about-container'>
       <h1 className='about-title'>About</h1>
       <p>

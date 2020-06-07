@@ -1,11 +1,9 @@
 import React from "react"
 import Layout from "../layout"
-import SEO from "../seo"
 import './disclaimer.scss'
 
 const DisclaimerPage = () => (
   <Layout>
-    <SEO title="Page two" />
     <div className='disclaimer-container'>
       <h2 className='disclaimer-title'>Disclaimer</h2>
       <p>

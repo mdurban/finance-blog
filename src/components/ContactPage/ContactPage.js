@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
 import Layout from "../layout"
-import SEO from "../seo"
 import './contact.scss'
 
 const ContactPage = ({ shouldDisplayConfirmation, displayContactConfirmation, hideContactConfirmation }) => {
@@ -12,7 +11,6 @@ const ContactPage = ({ shouldDisplayConfirmation, displayContactConfirmation, hi
 
   return (
     <Layout>
-      <SEO title="contact" />
       <div className='contact-container'>
         <h1 className='contact-title'>Contact</h1>
         <form ref={formElement}>

@@ -1,13 +1,11 @@
 import React from 'react'
 import Layout from '../layout';
-import SEO from "../seo"
 import { glossaryEntries } from '../../helpers/glossaryEntries';
 
 import './glossary.scss'
 
 const GlossaryPage = () => (
   <Layout>
-    <SEO title="glossary" />
     <div className='glossary-container'>
       <h1 className='glossary-title'>Glossary of Terms</h1>
       {
