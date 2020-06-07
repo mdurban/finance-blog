@@ -7,8 +7,7 @@ import "./layout.scss";
 import MobileNavContainer from "./MobileNav";
 
 const Layout = ({ children }) => {
-  const renderHomePageNavBar = children[0] && children[0].props && children[0].props.title === 'Home'
-  console.log('children: ', children)
+  const renderHomePageNavBar = children && children.props && children.props.className === 'home-page'
 
   return <>
     <Helmet>
@@ -28,9 +27,5 @@ const Layout = ({ children }) => {
 
   </>
 }
-
-// Layout.propTypes = {
-//   children: PropTypes.node.isRequired,
-// }
 
 export default Layout

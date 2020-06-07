@@ -6,7 +6,7 @@ import './home-page.scss';
 
 const HomePage = ({ blogPosts }) => {
   return <Layout>
-    <div className="background-container">
+    <div className="home-page">
       <div className="hero-image">
         <div className="hero-text">
           <div className='hero-title'>Making money easy</div>
