@@ -19,6 +19,15 @@ module.exports = {
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `moneyfornoobs`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#3E8290`,
+        theme_color: `#3E8290`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`,
+      },
     },
     'gatsby-plugin-offline',
     {

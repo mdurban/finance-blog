@@ -1,6 +1,6 @@
-import React from 'react'
-import { shallow, mount } from 'enzyme';
-import ContactPage from './ContactPage'
+import { shallow } from 'enzyme';
+import React from 'react';
+import ContactPage from './ContactPage';
 
 describe('Contact Page', () => {
   describe('confirmation message', () => {
