@@ -4,23 +4,10 @@ import ContactPageContainer from './'
 import { Provider } from 'react-redux'
 import configureStore from 'redux-mock-store'
 
-const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
-useStaticQuery.mockImplementation(() => ({
-  site: {
-    siteMetadata: {
-      author: 'Florian',
-      description: 'My description',
-      title: 'My Title',
-    },
-  },
-}));
-
 describe('Contact Page Container', () => {
   describe('confirmation message', () => {
-    it('mount', () => {
-      const middlewares = []
-      const mockStore = configureStore(middlewares)
-      const initialState = {
+    it('displays when displayConfirmation in state is true', () => {
+      const mockState = {
         hamburgerMenu: {
           isMobileNavOpen: false
         },
@@ -28,12 +15,63 @@ describe('Contact Page Container', () => {
           displayConfirmation: true
         }
       }
-      const store = mockStore(initialState)
+      const mockStore = configureStore([])(mockState)
       const contactPageWrapper = mount(
-        <Provider store={store}><ContactPageContainer /></Provider>
+        <Provider store={mockStore}><ContactPageContainer /></Provider>
       )
 
       expect(contactPageWrapper.find('.confirmation-message')).toHaveLength(1)
+    })
+
+    it('does NOT display when displayConfirmation in state is false', () => {
+      const mockState = {
+        hamburgerMenu: {
+          isMobileNavOpen: false
+        },
+        contactForm: {
+          displayConfirmation: false
+        }
+      }
+      const mockStore = configureStore([])(mockState)
+      const contactPageWrapper = mount(
+        <Provider store={mockStore}><ContactPageContainer /></Provider>
+      )
+
+      expect(contactPageWrapper.find('.confirmation-message')).toHaveLength(0)
+    })
+  })
+
+  describe('on unmount', () => {
+    it('dispatches action to hide confirmation', () => {
+      const mockState = {
+        hamburgerMenu: {},
+        contactForm: {}
+      }
+      const mockStore = configureStore([])(mockState)
+      const contactPageWrapper = mount(
+        <Provider store={mockStore}><ContactPageContainer /></Provider>
+      )
+
+      contactPageWrapper.unmount()
+
+      expect(mockStore.getActions()).toContainEqual({ type: 'HIDE_CONTACT_CONFIRMATION' })
+    })
+  })
+
+  describe('on submit', () => {
+    it('dispatches action to show confirmation', () => {
+      const mockState = {
+        hamburgerMenu: {},
+        contactForm: {}
+      }
+      const mockStore = configureStore([])(mockState)
+      const contactPageWrapper = mount(
+        <Provider store={mockStore}><ContactPageContainer /></Provider>
+      )
+
+      contactPageWrapper.find('.email-submit').simulate('click')
+
+      expect(mockStore.getActions()).toContainEqual({ type: 'DISPLAY_CONTACT_CONFIRMATION' })
     })
   })
 
