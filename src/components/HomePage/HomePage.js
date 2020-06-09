@@ -1,6 +1,5 @@
-import { Link } from "gatsby";
 import React from "react"
-import Layout from "../layout"
+import Layout from "../Layout"
 import './home-page.scss'
 import GlossaryPreview from "./GlossaryPreview"
 import BlogPreview from "./BlogPreview";
@@ -23,7 +22,7 @@ const HomePage = ({ blogPosts }) => {
             {
               blogPosts.map((blogPost, index) => (
                 <React.Fragment key={index}>
-                  <BlogPreview blogPost={blogPost} />
+                  <BlogPreview blogPostMetadata={blogPost.node.frontmatter} />
                 </React.Fragment>
               ))
             }

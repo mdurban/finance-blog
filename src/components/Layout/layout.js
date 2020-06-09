@@ -1,10 +1,10 @@
 import { Link } from "gatsby";
 import React from "react";
 import Helmet from "react-helmet";
-import favicon from '../images/favicon.png';
-import GlobalHeader from "./GlobalHeader";
+import favicon from '../../images/favicon.png';
+import GlobalHeader from "../GlobalHeader";
+import MobileNavContainer from "../MobileNav";
 import "./layout.scss";
-import MobileNavContainer from "./MobileNav";
 
 const Layout = ({ children }) => {
   const renderHomePageNavBar = children && children.props && children.props.className === 'home-page'

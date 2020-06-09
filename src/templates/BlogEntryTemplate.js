@@ -1,10 +1,9 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import './blog-post.scss';
 
 function BlogEntryTemplate({ data }) {
-
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   const imgPath = frontmatter.image
