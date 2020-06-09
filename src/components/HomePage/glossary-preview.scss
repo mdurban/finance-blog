@@ -1,0 +1,47 @@
+@import '../../styles/style.scss';
+
+.glossary-preview-container {
+  margin-bottom: 50px;
+
+  .glossary-description {
+    color: #848484;
+    padding: 10px 0 20px 0;
+  }
+
+  .glossary-link-container {
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+
+    .blur-box {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      padding: 100px 0;
+      background-image: linear-gradient(to bottom, transparent, white);
+
+      @media (max-width: 700px) {
+          padding: 200px 0;
+      }
+    }
+  }
+
+  .to-glossary-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: $brand-green;
+
+    &:active &:visited {
+      text-decoration: none;
+      color: $brand-green;
+    }
+    
+    &:hover {
+      color: $lightened-brand-green;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import Layout from "../layout"
+import Layout from "../Layout"
 import './contact.scss'
 
 const ContactPage = ({ shouldDisplayConfirmation, displayContactConfirmation, hideContactConfirmation }) => {

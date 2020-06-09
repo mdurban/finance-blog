@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../layout"
+import Layout from "../Layout"
 import './disclaimer.scss'
 
 const DisclaimerPage = () => (
